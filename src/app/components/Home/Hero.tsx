@@ -12,7 +12,7 @@ export default function Hero() {
             width={1600}
             height={900}
             alt="Startup team meeting"
-            className="object-cover w-full h-[200px] sm:h-[300px] md:h-[400px] lg:h-[500px] xl:h-[500px] 2xl:h-[570px] mt-20 sm:mt-30 lg:mt-42 rounded-xl md:rounded-3xl"
+            className="object-cover w-full h-[200px] sm:h-[300px] md:h-[400px] lg:h-[500px] xl:h-[500px] 2xl:h-[570px] mt-20 sm:mt-30 lg:mt-34 rounded-xl md:rounded-3xl"
           />
         </div>
 
@@ -32,7 +32,7 @@ export default function Hero() {
             learn, and make impact.
           </p>
 
-          <button className="relative mt-6 px-4 md:px-8 py-2 md:py-3 rounded-full bg-gradient-to-r from-purple-500 to-blue-500 text-white font-semibold shadow-md mb-10 text-[12px] md:text-[16px]">
+          <button className="relative mt-6 px-4 md:px-8 py-2 md:py-3 rounded-full bg-gradient-to-r from-purple-500 to-blue-500 text-white font-semibold shadow-md mb-10 text-[12px] md:text-[16px] w-[200px] md:w-[250px]">
             Join Zinkq Now
           </button>
         </div>

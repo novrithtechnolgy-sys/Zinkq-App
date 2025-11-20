@@ -35,7 +35,7 @@ export default function FoundersSection() {
   };
 
   return (
-    <section className="md:py-20 text-white mx-2 md:mx-4 lg:mx-8">
+    <section className="md:py-8 text-white mx-2 md:mx-4 lg:mx-8">
       <div className="mx-auto md:px-10 xl:px-12 2xl:px-20 px-2 text-center">
         {/* Heading */}
         <h2 className="font-roboto text-[20px] md:text-[38px] lg:text-[56px] font-bold mb-2 md:mb-4 text-black">
@@ -137,8 +137,8 @@ export default function FoundersSection() {
         </div>
 
         {/* Button */}
-        <div className="mt-6 md:mt-16">
-          <button className="bg-gradient-to-r from-purple-500 to-blue-500 text-white px-4 md:px-8 py-2 md:py-3 rounded-full font-medium shadow-lg hover:opacity-90 transition text-[12px] md:text-[16px]">
+        <div className="mt-6 md:mt-10">
+          <button className="bg-gradient-to-r from-purple-500 to-blue-500 text-white w-[200px] md:w-[250px] px-4 md:px-8 py-2 md:py-3 rounded-full font-medium shadow-lg hover:opacity-90 transition text-[12px] md:text-[16px]">
             View Member Stories
           </button>
         </div>

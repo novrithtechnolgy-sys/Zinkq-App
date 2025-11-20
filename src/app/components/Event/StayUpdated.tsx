@@ -1,9 +1,11 @@
 "use client";
 import Image from "next/image";
+import { FaArrowRight } from "react-icons/fa";
+import { FaChevronRight } from "react-icons/fa6";
 
 export default function StayUpdated() {
   return (
-    <section className="mx-2 md:mx-4 lg:mx-8 py-4 md:py-8 mt-10 ">
+    <section className="mx-2 md:mx-4 lg:mx-8 py-4 md:py-8 mb-10">
         <div className="md:px-10 xl:px-12 2xl:px-20 mx-auto px-2 rounded-xl md:rounded-3xl">
       {/* Gradient Overlay */}
         <div className="rounded-3xl overflow-hidden relative">
@@ -33,15 +35,14 @@ export default function StayUpdated() {
       <div className="relative z-10 px-8 md:px-20 py-20 text-white max-w-3xl">
         <h2 className="font-roboto text-[16px] md:text-[30px] lg:text-[48px] font-bold">Stay Updated</h2>
 
-        <p className="mt-6 font-roboto text-[14px] md:text-[16px] lg:text-[20px] leading-relaxed max-w-xl">
+        <p className="mt-2 font-roboto text-[14px] md:text-[16px] lg:text-[20px] leading-relaxed max-w-xl">
           Don’t miss the next event. Subscribe to the Zinkq newsletter for
           upcoming sessions, workshops, and showcases.
         </p>
 
         {/* Button */}
-        <button className="mt-10 px-6 py-3 bg-white text-purple-700 font-semibold rounded-full flex items-center gap-2 hover:bg-gray-100 transition">
-          Subscribe Now
-          <span>➜</span>
+        <button className="flex items-center justify-center text-center mt-6 w-[200px] md:w-[250px] px-6 py-3 bg-white text-[12px] md:text-[16px] text-purple-700 font-semibold rounded-full flex items-center gap-2 hover:bg-gray-100 transition">
+          Subscribe Now <FaChevronRight className=" ml-2 text-purple-700" />
         </button>
       </div>
     </div>

@@ -4,7 +4,7 @@ import { urlFor } from "@/sanity/lib/image";
 import Image from "next/image";
 import { useState, useEffect } from "react";
 import { FaArrowDown, FaArrowUp, FaCheckCircle, FaFacebook, FaLinkedin, FaSearch } from "react-icons/fa";
-import { FaSquareXTwitter } from "react-icons/fa6";
+import { FaSquareXTwitter, FaXTwitter } from "react-icons/fa6";
 
 export default function StartupMembers() {
   const [founders, setFounders] = useState<any[]>([]);
@@ -62,12 +62,12 @@ export default function StartupMembers() {
           Our Members’ <span className="text-blue-500">Startups</span>
         </h2>
 
-        <p className="mt-4 text-center text-gray-600 font-roboto text-[14px] md:text-[16px] lg:text-[20px]">
+        <p className="mt-2 text-center text-gray-600 font-roboto text-[14px] md:text-[16px] lg:text-[20px]">
           We are a team of entrepreneurs, creators, and innovators who are passionate
         </p>
 
         {/* Category Tabs (Mobile) */}
-        <div className="md:hidden flex items-center gap-6 text-sm font-medium mt-6">
+        <div className="md:hidden flex items-center gap-6 text-sm font-medium mt-4">
           <button
             onClick={() => setActiveCategory("industry")}
             className={`px-6 py-2 rounded-full font-bold ${
@@ -165,9 +165,9 @@ export default function StartupMembers() {
                     <p className="text-xs text-gray-500 mt-1">{f.expect}</p>
 
                     <div className="flex justify-center gap-4 mt-3 text-gray-700">
-                      <a href={f.facebook}><FaFacebook /></a>
-                      <a href={f.twitter}><FaSquareXTwitter /></a>
                       <a href={f.linkedin}><FaLinkedin /></a>
+                      <a href={f.twitter}><FaXTwitter /></a>
+                      <a href={f.facebook}><FaFacebook /></a>
                     </div>
                   </div>
 
@@ -238,23 +238,23 @@ export default function StartupMembers() {
               />
 
               <div>
-                <h3 className="text-2xl font-bold">{selected.name}</h3>
+                <h3 className="font-roboto text-[16px] md:text-[18px] lg:text-[24px] font-bold">{selected.name}</h3>
                 <p className="text-gray-600">{selected.role}</p>
                 <p className="text-gray-500">{selected.expect}</p>
 
                 <div className="flex gap-4 mt-3 text-gray-700">
-                  <a href={selected.facebook}><FaFacebook /></a>
-                  <a href={selected.twitter}><FaSquareXTwitter /></a>
                   <a href={selected.linkedin}><FaLinkedin /></a>
+                  <a href={selected.twitter}><FaXTwitter /></a>
+                  <a href={selected.facebook}><FaFacebook /></a>
                 </div>
               </div>
             </div>
 
-            <h3 className="text-xl font-bold mt-10 mb-3">Startup Summary</h3>
-            <p className="text-gray-700 leading-relaxed">{selected.summary}</p>
+            <h3 className="font-roboto text-[14px] md:text-[24px] lg:text-[40px] font-bold mt-10 mb-3">Startup Summary</h3>
+            <p className="text-gray-700 font-roboto text-[14px] md:text-[16px] lg:text-[20px] leading-relaxed">{selected.summary}</p>
 
-            <h3 className="text-xl font-bold mt-10 mb-3">Services</h3>
-            <ul className="space-y-2">
+            <h3 className="font-roboto text-[16px] md:text-[18px] lg:text-[24px] font-bold mt-10 mb-3">Services</h3>
+            <ul className="space-y-3 font-roboto text-[14px] md:text-[16px] lg:text-[20px]">
               {selected.services?.map((s: string, i: number) => (
                 <li key={i} className="flex items-center gap-2">
                   <FaCheckCircle className="text-purple-600 text-xl"/>
@@ -263,7 +263,7 @@ export default function StartupMembers() {
               ))}
             </ul>
 
-            <h3 className="text-xl font-bold mt-10">Businesses</h3>
+            <h3 className="font-roboto text-[16px] md:text-[18px] lg:text-[24px] font-bold mt-10">Businesses</h3>
             <div className="grid grid-cols-1 md:grid-cols-2 gap-6 mt-4">
               {selected.businesses?.map((b: any, i: number) => (
                 <div key={i} className="bg-white p-4 rounded-xl flex gap-4">

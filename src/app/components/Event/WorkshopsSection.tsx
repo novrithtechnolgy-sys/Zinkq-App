@@ -1,11 +1,11 @@
 "use client";
 
 import Image from "next/image";
-import { FaCheckCircle } from "react-icons/fa";
+import { FaArrowLeft, FaCheckCircle, FaChevronRight } from "react-icons/fa";
 
 export default function WorkshopsSection() {
   return (
-    <section className="md:py-24 mx-2 md:mx-4 lg:mx-8 py-4 md:py-8 mt-10">
+    <section className="md:py-14 mx-2 md:mx-4 lg:mx-8 py-4">
       <div className="md:px-10 xl:px-12 2xl:px-20 mx-auto px-2 rounded-xl md:rounded-3xl  py-4 md:py-8 grid grid-cols-1 md:grid-cols-2 gap-12">
 
         {/* LEFT SIDE */}
@@ -14,16 +14,16 @@ export default function WorkshopsSection() {
             Workshops <span className="text-transparent bg-clip-text bg-[linear-gradient(117.43deg,#6F00FF_24.32%,#5022F8_44.06%,#2E49F0_70.24%,#1565EA_94.36%,#0576E6_115.43%,#007CE5_131.13%)]">&amp; Skill Labs</span>
           </h2>
 
-          <p className="font-roboto text-[14px] md:text-[16px] lg:text-[20px] text-gray-600 mt-2 md:mt-4 leading-relaxed">
+          <p className="font-roboto text-[14px] md:text-[16px] lg:text-[20px] text-gray-600 mt-2 md:mt-2 leading-relaxed">
             Hands-on learning experiences led by industry experts and successful
             founders. From branding to fundraising, marketing to scaling — every
             session is built to give you practical, actionable insights you can
             apply immediately.
           </p>
 
-          <h3 className="mt-2 md:mt-6 font-semibold font-roboto text-[16px] md:text-[18px] lg:text-[24px] text-gray-700">Types of Workshops:</h3>
+          <h3 className="mt-2 md:mt-4 font-semibold font-roboto text-[16px] md:text-[18px] lg:text-[24px] text-gray-700">Types of Workshops:</h3>
 
-          <div className="mt-2 md:mt-4 space-y-2 md:space-y-4">
+          <div className="mt-2 md:mt-4 space-y-2 md:space-y-3">
             {["Branding & Identity", "Startup Funding Basics", "Growth & Marketing", "Founder's AMA Sessions"].map((item, index) => (
               <div key={index} className="flex items-center gap-3 font-roboto text-[14px] md:text-[16px] lg:text-[20px]">
                 <FaCheckCircle className="text-[#AE00FF]" />
@@ -32,16 +32,15 @@ export default function WorkshopsSection() {
             ))}
           </div>
 
-          <p className="text-gray-600 mt-2 md:mt-8 font-roboto text-[14px] md:text-[16px] lg:text-[20px]">
+          <p className="text-gray-600 mt-2 md:mt-4 font-roboto text-[14px] md:text-[16px] lg:text-[20px]">
             Participants: Limited to ensure personalized guidance<br />
             Format: In-person & hybrid
           </p>
 
-          <button className="mt-2 md:mt-8 px-6 py-3 rounded-full text-white font-medium
+          <button className="flex w-[250px] items-center justify-center pl-3 mt-2 md:mt-6 px- py-3 rounded-full text-white font-medium font-roboto text-[10px] md:text-[14px] lg:text-[16px]
             bg-gradient-to-r from-purple-500 to-blue-500
             hover:opacity-90 transition">
-            View Upcoming Workshops →
-            
+            View Upcoming Workshops <FaChevronRight className="ml-1"/>
           </button>
         </div>
 

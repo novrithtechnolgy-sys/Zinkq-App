@@ -1,5 +1,8 @@
 "use client";
 
+import { FaChevronRight } from "react-icons/fa";
+import { FaC } from "react-icons/fa6";
+
 export default function BrandCTA() {
   return (
     <section className="relative rounded-3xl overflow-hidden md:py-6 mx-2 md:mx-4 lg:mx-8 mx-auto my-20">
@@ -17,16 +20,15 @@ export default function BrandCTA() {
 
       {/* Content */}
       <div className="relative z-10 py-16 px-6 flex flex-col items-center justify-center text-center text-white">
-        <h2 className="text-3xl md:text-4xl font-bold mb-6">
+        <h2 className="font-roboto text-[16px] md:text-[30px] lg:text-[48px] font-bold mb-6">
           Want to see your brand here?
         </h2>
 
         <a
           href="/submit"
-          className="inline-flex items-center px-6 py-3 bg-white text-purple-700 font-semibold rounded-full hover:bg-gray-100 transition"
+          className="inline-flex items-center justify-center w-[250px] px-6 py-3 bg-white text-purple-700 font-semibold rounded-full hover:bg-gray-100 transition"
         >
-          Submit Your Startup
-          <span className="ml-2">➜</span>
+          Submit Your Startup <FaChevronRight className="ml-2" />
         </a>
       </div>
     </section>

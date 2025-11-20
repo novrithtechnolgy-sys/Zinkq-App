@@ -1,6 +1,6 @@
 export default function WhatIsZinkq() {
   return (
-    <section className="w-full md:py-20 flex justify-center px-4">
+    <section className="w-full md:py-10 flex justify-center px-4">
       <div className="max-w-3xl text-center">
         
         <h2 className="font-roboto text-[20px] md:text-[38px] lg:text-[56px] font-bold text-[#1B1B1D] mb-6">

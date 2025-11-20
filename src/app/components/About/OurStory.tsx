@@ -1,8 +1,8 @@
 // components/OurStory.tsx
 export default function OurStory() {
   return (
-    <section className=" mx-2 md:mx-4 lg:mx-8 rounded-b-3xl py-4 md:py-10">
-      <div className="md:px-10 xl:px-12 2xl:px-20 mx-auto px-2 rounded-xl md:rounded-3xl bg-[#F0F2F4] w-full h-full py-20 md:py-24 text-center">
+    <section className="mt-10 mx-2 md:mx-4 lg:mx-8 rounded-b-3xl py-4 md:py-10">
+      <div className="md:px-10 xl:px-12 2xl:px-20 mx-auto px-2 rounded-xl md:rounded-3xl bg-[#F0F2F4] w-full h-full py-10 md:py-20 text-center">
         {/* Title */}
         <h2 className="font-roboto text-[20px] md:text-[38px] lg:text-[56px] font-semibold text-gray-900 mb-6">
           Our Story

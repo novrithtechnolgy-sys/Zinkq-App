@@ -1,7 +1,7 @@
 export default function OurPromise() {
   return (
     <section className="text-white mx-2 md:mx-4 lg:mx-8 md:mb-20">
-        <div className="md:px-10 xl:px-12 2xl:px-20 mx-auto px-2 rounded-xl md:rounded-3xl w-full h-full py-10 md:py-0">
+        <div className="md:px-10 xl:px-12 2xl:px-20 mx-auto px-2 rounded-xl md:rounded-3xl w-full h-full py-10 md:py-10">
       <div className="mx-auto text-center">
         {/* Title */}
         <h2 className="font-roboto text-[20px] md:text-[38px] lg:text-[56px] font-bold text-[#1A1A1A]">

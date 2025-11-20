@@ -16,14 +16,14 @@ export default function WhyJoinZinkq() {
         
         {/* LEFT CONTENT */}
         <div className="order-2 lg:order-1">
-          <h2 className="font-roboto text-[20px] md:text-[38px] lg:text-[56px] font-bold mb-2 md:mb-4">Why Join Zinkq</h2>
+          <h2 className="font-roboto text-[20px] md:text-[38px] lg:text-[56px] font-bold mb-2 md:mb-2">Why Join Zinkq</h2>
 
           <p className="font-roboto text-[14px] md:text-[16px] lg:text-[20px] text-gray-700">Because no one builds alone.</p>
           <p className=" font-roboto text-[14px] md:text-[16px] lg:text-[20px] text-gray-700 mb-2 md:mb-6">
             When you join Zinkq, you join a community that opens doors.
           </p>
 
-          <ul className=" space-y-2 md:space-y-4">
+          <ul className=" space-y-2 md:space-y-3">
             <li className="flex items-start gap-3 font-roboto text-[14px] md:text-[16px] lg:text-[20px]">
               <FaUsers className="text-blue-600 w-3 h-3 md:w-5 md:h-5 mt-1" />
               <span>
@@ -64,7 +64,7 @@ export default function WhyJoinZinkq() {
             Join the movement shaping Sri Lanka’s startup future.
           </p>
 
-          <button className="mt-6 mt-6 px-4 md:px-8 py-2 md:py-3 rounded-full bg-gradient-to-r from-purple-600 to-blue-500 text-white font-medium text-[12px] md:text-[16px]">
+          <button className="mt-6 mt-6 px-4 md:px-8 py-2 md:py-3 w-[200px] md:w-[250px] rounded-full bg-gradient-to-r from-purple-600 to-blue-500 text-white font-medium text-[12px] md:text-[16px]">
             Become a Member
           </button>
         </div>

@@ -12,7 +12,7 @@ export default function EventsSection() {
         Events | <span className="text-[#0075FF]">Connect. Learn. Grow.</span>
       </h2>
 
-      <p className="text-center font-roboto text-[14px] md:text-[16px] lg:text-[20px] max-w-3xl mx-auto mt-6 text-gray-600 leading-relaxed">
+      <p className="text-center font-roboto text-[14px] md:text-[16px] lg:text-[20px] max-w-5xl mx-auto mt-2 text-gray-600 leading-relaxed">
         Empowering Founders Through Real Experiences at Zinkq, we believe
         growth happens when ideas are shared, stories are told, and founders
         connect in real life. Our events are designed to inspire, educate, and
@@ -20,7 +20,7 @@ export default function EventsSection() {
       </p>
 
       {/* Card */}
-      <div className="relative mt-16 rounded-3xl overflow-hidden border-[5px] border-[#6F00FF]">
+      <div className="relative mt-10 rounded-3xl overflow-hidden border-[5px] border-[#6F00FF]">
         {/* LEFT PURPLE + NEON BACKGROUND */}
         <div className="absolute inset-0 ">
           <div className="absolute inset-0 bg-gradient-to-r from-[#6F00FF] via-[#8E00FF] to-transparent opacity-80 z-10" />
@@ -52,7 +52,7 @@ export default function EventsSection() {
             </p>
 
             <div className="mt-2 md:mt-8">
-              <span className="inline-block bg-white text-[#6F00FF] px-6 py-3 rounded-full font-roboto text-[10px] shadow-lg">
+              <span className="inline-block flex items-center text-center justify-center bg-white w-[250px] text-[#6F00FF] px-6 py-3 rounded-full font-roboto text-[10px] md:text-[14px] lg:text-[16px] font-semibold shadow-lg">
                 Submit Your Startup
               </span>
             </div>

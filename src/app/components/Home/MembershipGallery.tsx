@@ -35,7 +35,7 @@ export default function MembershipGallery() {
   };
 
   return (
-    <section className="py-20 mx-2 px-2 md:px-0 md:mx-4 lg:mx-8 mx-auto text-white">
+    <section className="py-10 mx-2 px-2 md:px-0 md:mx-4 lg:mx-8 mx-auto text-white">
         <div className="md:px-10 xl:px-12 2xl:px-20 mx-auto px-2 rounded-xl md:rounded-3xl bg-[#F0F2F4] py-10 md:py-20">
 
         
@@ -50,7 +50,7 @@ export default function MembershipGallery() {
 
             <div className="mx-auto text-center">
                 {/* Button */}
-                <button className="bg-gradient-to-r from-purple-500 to-blue-500 px-4 md:px-8 py-2 md:py-3 rounded-full font-semibold shadow-lg hover:opacity-90 transition mb-16 text-[12px] md:text-[16px]">
+                <button className="bg-gradient-to-r from-purple-500 to-blue-500 w-[200px] md:w-[250px] px-4 md:px-8 py-2 md:py-3 rounded-full font-semibold shadow-lg hover:opacity-90 transition mb-16 text-[12px] md:text-[16px]">
                 Apply for Membership
                 </button>
 

@@ -13,11 +13,11 @@ export default function WhatWeStandFor() {
         
         {/* LEFT SIDE */}
         <div className="order-2 md:order-1">
-          <h2 className="font-roboto text-[20px] md:text-[38px] lg:text-[56px] font-bold text-gray-900 mb-8">
+          <h2 className="font-roboto text-[20px] md:text-[38px] lg:text-[56px] font-bold text-gray-900 mb-4">
             What We Stand For
           </h2>
 
-          <ul className="space-y-4 font-roboto text-[14px] md:text-[16px] lg:text-[20px] text-gray-700">
+          <ul className="space-y-3 font-roboto text-[14px] md:text-[16px] lg:text-[20px] text-gray-700">
             <li className="flex items-start gap-3">
               <FaUsers className="text-blue-600 w-6 h-6 mt-1" />
               <p>
@@ -74,55 +74,57 @@ export default function WhatWeStandFor() {
 
       </div>
 
-        <div className="grid grid-cols-1 md:grid-cols-2 gap-10 items-center mx-auto md:px-10 xl:px-12 2xl:px-20 px-2 md:h-[400px] py-10 md:mt-30">
+        <div className="grid grid-cols-1 md:grid-cols-2 gap-10 items-center mx-auto md:px-10 xl:px-12 2xl:px-20 px-2 md:h-[400px] py-10 md:mt-20">
         
         {/* LEFT SIDE */}
         <div className="order-2 md:order-2 ">
-          <h2 className="font-roboto text-[20px] md:text-[38px] lg:text-[56px] font-bold text-gray-900 mb-8">
+          <h2 className="font-roboto text-[20px] md:text-[38px] lg:text-[56px] font-bold text-gray-900 mb-4">
             What We Do
           </h2>
 
-          <ul className="space-y-4 font-roboto text-[14px] md:text-[16px] lg:text-[20px] text-gray-700">
-            <li className="flex items-start gap-3">
-              <FaCircle className="text-blue-600 w-4 h-4 md:w-6 md:h-6 mt-1" />
-              <p>
-                <span className="font-semibold text-blue-600">Founder Features :</span>{" "}
-                Tell your story. Inspire others.
-              </p>
-            </li>
+<ul className="space-y-3 font-roboto text-[14px] md:text-[16px] lg:text-[20px] text-gray-700">
+  <li className="flex items-start gap-3">
+    <FaCircle className="text-blue-600 mt-1 flex-shrink-0 text-[16px] md:text-[20px]" />
+    <p>
+      <span className="font-semibold text-blue-600">Founder Features :</span>{" "}
+      Tell your story. Inspire others.
+    </p>
+  </li>
 
-            <li className="flex items-start gap-3">
-              <FaCircle className="text-blue-600 w-4 h-4 md:w-6 md:h-6 mt-1" />
-              <p>
-                <span className="font-semibold text-blue-600">Startup Directory:</span>{" "}
-                 Showcase your business and attract opportunities.
-              </p>
-            </li>
+  <li className="flex items-start gap-3">
+    <FaCircle className="text-blue-600 mt-1 flex-shrink-0 text-[16px] md:text-[20px]" />
+    <p>
+      <span className="font-semibold text-blue-600">Startup Directory:</span>{" "}
+      Showcase your business and attract opportunities.
+    </p>
+  </li>
 
-            <li className="flex items-start gap-3">
-              <FaCircle className="text-blue-600 w-4 h-4 md:w-6 md:h-6 mt-1" />
-              <p>
-                <span className="font-semibold text-blue-600">Networking Events:</span>{" "}
-                Meet mentors, investors, and peers.
-              </p>
-            </li>
+      <li className="flex items-start gap-3">
+        <FaCircle className="text-blue-600 mt-1 flex-shrink-0 text-[16px] md:text-[20px]" />
+        <p>
+          <span className="font-semibold text-blue-600">Networking Events:</span>{" "}
+          Meet mentors, investors, and peers.
+        </p>
+      </li>
 
-            <li className="flex items-start gap-3">
-              <FaCircle className="text-blue-600 w-4 h-4 md:w-6 md:h-6 mt-1" />
-              <p>
-                <span className="font-semibold text-blue-600">Learning Labs:</span>{" "}
-                Workshops to upskill and grow your team.
-              </p>
-            </li>
+      <li className="flex items-start gap-3">
+        <FaCircle className="text-blue-600 mt-1 flex-shrink-0 text-[16px] md:text-[20px]" />
+        <p>
+          <span className="font-semibold text-blue-600">Learning Labs:</span>{" "}
+          Workshops to upskill and grow your team.
+        </p>
+      </li>
 
-            <li className="flex items-start gap-3">
-              <FaCircle className="text-blue-600 w-4 h-4 md:w-6 md:h-6 mt-1" />
-              <p>
-                <span className="font-semibold text-blue-600">Mentorship Access:</span>{" "}
-                Real guidance from successful entrepreneurs.
-              </p>
-            </li>
-          </ul>
+      <li className="flex items-start gap-3">
+        <FaCircle className="text-blue-600 mt-1 flex-shrink-0 text-[16px] md:text-[20px]" />
+        <p>
+          <span className="font-semibold text-blue-600">Mentorship Access:</span>{" "}
+          Real guidance from successful entrepreneurs.
+        </p>
+      </li>
+    </ul>
+
+
         </div>
 
         {/* RIGHT SIDE IMAGE */}

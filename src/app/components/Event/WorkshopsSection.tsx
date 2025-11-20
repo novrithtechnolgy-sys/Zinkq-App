@@ -41,6 +41,7 @@ export default function WorkshopsSection() {
             bg-gradient-to-r from-purple-500 to-blue-500
             hover:opacity-90 transition">
             View Upcoming Workshops →
+            
           </button>
         </div>
 

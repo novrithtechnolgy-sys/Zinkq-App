@@ -69,7 +69,7 @@ export default function WhatWeStandFor() {
           />
 
           {/* PURPLE OVERLAY */}
-          <div className="absolute inset-0 bg-gradient-to-tr from-purple-700/60 via-purple-500/40 to-transparent"></div>
+          <div className="absolute inset-0 bg-gradient-to-tr from-[#6F00FF]/60 via-[#6F00FF]/40 to-transparent"></div>
         </div>
 
       </div>
@@ -134,7 +134,7 @@ export default function WhatWeStandFor() {
           />
 
           {/* PURPLE OVERLAY */}
-          <div className="absolute inset-0 bg-gradient-to-tr from-purple-700/60 via-purple-500/40 to-transparent"></div>
+          <div className="absolute inset-0 bg-gradient-to-tr from-[#6F00FF]/60 via-[#6F00FF]/40 to-transparent"></div>
         </div>
 
       </div>

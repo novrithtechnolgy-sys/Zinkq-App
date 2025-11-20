@@ -14,7 +14,7 @@ export default function AboutSection() {
         />
 
         {/* Purple Overlay */}
-        <div className="absolute inset-0 bg-purple-600/60"></div>
+        <div className="absolute inset-0 bg-[#6F00FFA8]"></div>
 
         {/* Title */}
         <h1 className="absolute inset-0 flex items-center justify-center text-white font-roboto text-[20px] md:text-[38px] lg:text-[56px] font-semibold">

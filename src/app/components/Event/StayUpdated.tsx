@@ -1,0 +1,51 @@
+"use client";
+import Image from "next/image";
+
+export default function StayUpdated() {
+  return (
+    <section className="mx-2 md:mx-4 lg:mx-8 py-4 md:py-8 mt-10 ">
+        <div className="md:px-10 xl:px-12 2xl:px-20 mx-auto px-2 rounded-xl md:rounded-3xl">
+      {/* Gradient Overlay */}
+        <div className="rounded-3xl overflow-hidden relative">
+      <div
+        className="absolute inset-0 opacity-10 bg-gradient-to-r from-[#6F00FF] via-[#8E00FF] to-transparent opacity-99 "
+
+      ></div>
+
+      {/* RIGHT SIDE IMAGE */}
+      <div className="absolute inset-0 ">
+        <Image
+          src="https://res.cloudinary.com/dgm9hbcb1/image/upload/v1763629102/j1kys8gtzypeqtfqkpu4.jpg" // ⬅ change
+          alt="newsletter background"
+          fill
+          className="object-none  mix-blend-soft-light"
+        />
+      </div>
+
+      {/* CIRCLES DECORATION */}
+      <div className="absolute right-[10px] top-[140px] w-[400px] h-[400px] bg-[#6F00FF] shadow-2xl opacity-80  rounded-full "></div>
+      <div className="absolute right-[-120px] top-[-30px] w-[400px] h-[400px] bg-[#6F00FF] shadow-2xl rounded-full opacity-80 "></div>
+      <div className="absolute right-[-150px] bottom-[-100px] w-[400px] h-[400px] bg-[#6F00FF] shadow-2xl rounded-full"></div>
+
+            <div className="absolute left-[-100px] bottom-[40px] w-[700px] h-[500px] bg-[#6F00FF] shadow-2xl rounded-full blur-xl"></div>
+
+      {/* CONTENT */}
+      <div className="relative z-10 px-8 md:px-20 py-20 text-white max-w-3xl">
+        <h2 className="font-roboto text-[16px] md:text-[30px] lg:text-[48px] font-bold">Stay Updated</h2>
+
+        <p className="mt-6 font-roboto text-[14px] md:text-[16px] lg:text-[20px] leading-relaxed max-w-xl">
+          Don’t miss the next event. Subscribe to the Zinkq newsletter for
+          upcoming sessions, workshops, and showcases.
+        </p>
+
+        {/* Button */}
+        <button className="mt-10 px-6 py-3 bg-white text-purple-700 font-semibold rounded-full flex items-center gap-2 hover:bg-gray-100 transition">
+          Subscribe Now
+          <span>➜</span>
+        </button>
+      </div>
+    </div>
+    </div>
+    </section>
+  );
+}

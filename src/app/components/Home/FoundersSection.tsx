@@ -1,12 +1,13 @@
 "use client";
 
 import Image from "next/image";
+import { useRouter } from "next/navigation";
 import { useState, useEffect } from "react";
 import { FaFacebook, FaLinkedin } from "react-icons/fa";
 import { FaSquareXTwitter } from "react-icons/fa6";
 
 export default function FoundersSection() {
-
+  const router = useRouter();
 
   const [founders, setFounders] = useState<any[]>([]);
   const [index, setIndex] = useState(0);
@@ -138,7 +139,9 @@ export default function FoundersSection() {
 
         {/* Button */}
         <div className="mt-6 md:mt-10">
-          <button className="bg-gradient-to-r from-purple-500 to-blue-500 text-white w-[200px] md:w-[250px] px-4 md:px-8 py-2 md:py-3 rounded-full font-medium shadow-lg hover:opacity-90 transition text-[12px] md:text-[16px]">
+          <button 
+          onClick={() => router.push("/startups")}
+          className="bg-gradient-to-r from-purple-500 to-blue-500 text-white w-[200px] md:w-[250px] px-4 md:px-8 py-2 md:py-3 rounded-full font-medium shadow-lg hover:opacity-90 transition text-[12px] md:text-[16px]">
             View Member Stories
           </button>
         </div>

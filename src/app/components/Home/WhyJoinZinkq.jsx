@@ -8,8 +8,10 @@ import {
   FaHandshake,
   FaKey
 } from "react-icons/fa6";
+import { useRouter } from "next/navigation";
 
 export default function WhyJoinZinkq() {
+  const router = useRouter();
   return (
     <section className="pb-20 mx-2 md:mx-4 lg:mx-8  rounded-b-3xl py-8">
       <div className="md:px-10 xl:px-12 2xl:px-20 mx-auto px-2 py-8 md:py-12 rounded-xl md:rounded-3xl bg-[#F0F2F4] grid lg:grid-cols-2 gap-10 items-center">
@@ -64,7 +66,10 @@ export default function WhyJoinZinkq() {
             Join the movement shaping Sri Lanka’s startup future.
           </p>
 
-          <button className="mt-6 mt-6 px-4 md:px-8 py-2 md:py-3 w-[200px] md:w-[250px] rounded-full bg-gradient-to-r from-purple-600 to-blue-500 text-white font-medium text-[12px] md:text-[16px]">
+          <button
+          type="button"
+          onClick={() => router.push("/contact")}
+          className="mt-6 mt-6 px-4 md:px-8 py-2 md:py-3 w-[200px] md:w-[250px] rounded-full bg-gradient-to-r from-purple-600 to-blue-500 text-white font-medium text-[12px] md:text-[16px]">
             Become a Member
           </button>
         </div>

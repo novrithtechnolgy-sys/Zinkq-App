@@ -148,7 +148,7 @@ export default function StartupMembers() {
                 {/* CARD */}
                 <div
                   onClick={() => setSelected(isSelected ? null : f)}
-                  className={`cursor-pointer border rounded-xl overflow-hidden transition text-[#1A1A1A] flex flex-row md:flex-col justify-between
+                  className={`cursor-pointer border rounded-xl overflow-hidden transition text-[#1A1A1A] flex flex-row md:flex-col justify-between md:h-full justify-start
                   ${isSelected ? "bg-purple-100 border-purple-400" : "bg-white"}`}
                 >
                   <Image
@@ -156,13 +156,13 @@ export default function StartupMembers() {
                     alt={f.name}
                     width={600}
                     height={400}
-                    className="w-2/5 md:w-full h-48 object-cover"
+                    className="w-2/5 md:w-full md:h-48 object-cover"
                   />
 
                   <div className="p-4 text-center">
-                    <h3 className="text-lg font-bold">{f.name}</h3>
-                    <p className="text-sm text-gray-600">{f.role}</p>
-                    <p className="text-xs text-gray-500 mt-1">{f.expect}</p>
+                    <h3 className="font-roboto md:text-[20px] text-[16px] font-bold">{f.name}</h3>
+                    <p className="font-roboto text-[14px] md:text-[16px] text-gray-600">{f.role}</p>
+                    <p className="font-roboto text-[12px] md:text-[14px] text-gray-500 mt-1">{f.expect}</p>
 
                     <div className="flex justify-center gap-4 mt-3 text-gray-700">
                       <a href={f.linkedin}><FaLinkedin /></a>
@@ -180,23 +180,23 @@ export default function StartupMembers() {
                 {/* MOBILE DETAILS */}
                 {isSelected && (
                   <div className="md:hidden mt-4 bg-[#F0F2F4] p-4 rounded-xl">
-                    <h3 className="text-lg font-bold">{f.name}</h3>
-                    <p className="text-gray-600">{f.role}</p>
-                    <p className="text-gray-500 mb-4">{f.expect}</p>
+                    <h3 className="font-roboto text-[16px] font-bold">{f.name}</h3>
+                    <p className="text-gray-600 font-roboto text-[14px]">{f.role}</p>
+                    <p className="text-gray-500 mb-4 font-roboto text-[14px]">{f.expect}</p>
 
                     <h4 className="font-bold mt-3">Summary</h4>
-                    <p className="text-gray-700">{f.summary}</p>
+                    <p className="text-gray-500 font-roboto text-[14px]">{f.summary}</p>
 
                     <h4 className="font-bold mt-3">Services</h4>
                     <ul className="mt-2 space-y-1">
                       {f.services?.map((s: string, idx: number) => (
-                        <li key={idx} className="flex items-center gap-2">
+                        <li key={idx} className="flex items-center gap-2 font-roboto text-[14px]">
                           <FaCheckCircle className="text-purple-600" />
                           <span>{s}</span>
                         </li>
                       ))}
                     </ul>
-                    <h3 className="text-xl font-bold mt-10">Businesses</h3>
+                    <h3 className="text-[16px] font-bold mt-10">Businesses</h3>
             <div className="grid grid-cols-1 md:grid-cols-2 gap-6 mt-4">
               {selected.businesses?.map((b: any, i: number) => (
                 <div key={i} className="bg-white p- rounded-xl flex gap-4">
@@ -208,9 +208,9 @@ export default function StartupMembers() {
                     className="rounded-lg"
                   />
                   <div className="p-4">
-                    <p className="text-sm font-bold">{b.year}</p>
-                    <h4 className="font-semibold">{b.title}</h4>
-                    <p className="text-sm text-gray-600">{b.desc}</p>
+                    <p className="text-[16px] font-bold">{b.year}</p>
+                    <h4 className="font-semibold text-[16px]">{b.title}</h4>
+                    <p className="text-sm text-gray-600 text-[12px]">{b.desc}</p>
                   </div>
                 </div>
               ))}

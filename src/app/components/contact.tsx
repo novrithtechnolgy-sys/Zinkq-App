@@ -40,7 +40,7 @@ export default function Contactpage() {
           </p>
 
           {/* Form */}
-          <div className="grid grid-cols-1 md:grid-cols-2 gap-4 ">
+          <form className="grid grid-cols-1 md:grid-cols-2 gap-4 space-y-4 md:space-y-6 mb-6">
 
             {/* First name */}
             <div>
@@ -106,9 +106,9 @@ export default function Contactpage() {
                 ></textarea>
               </div>
             </div>
-          </div>
+          </form>
 
-          <button className="mt-6 w-[250px] bg-gradient-to-r from-purple-500 to-blue-500 text-white py-3 rounded-3xl font-medium">
+          <button className="mt-6 w-[200px] md:w-[250px] bg-gradient-to-r from-purple-500 to-blue-500 text-[12px] md:text-[16px] text-white py-2 md:py-3 rounded-3xl font-medium">
             Send Message
           </button>
         </div>
@@ -135,17 +135,18 @@ export default function Contactpage() {
           <div className="absolute bottom-6 left-6 text-white">
             <div className="mb-6">
               <h3 className="text-lg font-semibold">Address</h3>
-              <p className="text-sm text-gray-200">Colombo, Sri Lanka</p>
+              <p className="text-sm text-gray-200">22 Marikkar St, <br/>
+                Dharga Town,<br/> Aluthgama, Sri Lanka</p>
             </div>
 
             <div className="mb-6">
               <h3 className="text-lg font-semibold">Contact</h3>
-              <p className="text-sm text-gray-200">Colombo, Sri Lanka</p>
+              <p className="text-sm text-gray-200">077 157 9668</p>
             </div>
 
             <div className="mb-6">
               <h3 className="text-lg font-semibold">Email</h3>
-              <p className="text-sm text-gray-200">Colombo, Sri Lanka</p>
+              <p className="text-sm text-gray-200">inqary.digitalescaps@gmail.com</p>
             </div>
 
             <div className="flex space-x-4 text-white text-xl">

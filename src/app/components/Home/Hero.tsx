@@ -1,6 +1,9 @@
+"use client";
 import Image from "next/image";
+import { useRouter } from "next/navigation";
 
 export default function Hero() {
+  const router = useRouter();
   return (
     <section className="pb-20 mx-2 md:mx-4 lg:mx-8 rounded-b-3xl py-4 md:py-8 ">
       <div className="md:px-10 xl:px-12 2xl:px-20 mx-auto px-2 rounded-xl md:rounded-3xl bg-[#F0F2F4]">
@@ -32,7 +35,10 @@ export default function Hero() {
             learn, and make impact.
           </p>
 
-          <button className="relative mt-6 px-4 md:px-8 py-2 md:py-3 rounded-full bg-gradient-to-r from-purple-500 to-blue-500 text-white font-semibold shadow-md mb-10 text-[12px] md:text-[16px] w-[200px] md:w-[250px]">
+          <button
+            type="button"
+             onClick={() => router.push("/contact")}
+            className="relative pointer-cursor mt-6 px-4 md:px-8 py-2 md:py-3 rounded-full bg-gradient-to-r from-purple-500 to-blue-500 text-white font-semibold shadow-md mb-10 text-[12px] md:text-[16px] w-[200px] md:w-[250px]">
             Join Zinkq Now
           </button>
         </div>

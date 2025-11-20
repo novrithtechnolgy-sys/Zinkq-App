@@ -52,9 +52,10 @@ export default function EventsSection() {
             </p>
 
             <div className="mt-2 md:mt-8">
-              <span className="inline-block flex items-center text-center justify-center bg-white w-[250px] text-[#6F00FF] px-6 py-3 rounded-full font-roboto text-[10px] md:text-[14px] lg:text-[16px] font-semibold shadow-lg">
+              <a href="/contact"
+              className="inline-block flex items-center text-center justify-center bg-white w-[200px] md:w-[250px] text-[#6F00FF] px-6 py-2 md:py-3 rounded-full font-roboto text-[12px] md:text-[16px] font-semibold shadow-lg">
                 Submit Your Startup
-              </span>
+              </a>
             </div>
           </div>
 

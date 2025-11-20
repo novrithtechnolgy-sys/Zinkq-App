@@ -2,9 +2,11 @@
 "use client";
 
 import Image from "next/image";
+import { useRouter } from "next/navigation";
 import { useState } from "react";
 
 export default function MembershipGallery() {
+  const router = useRouter();
    // ⭐ All images stored in ONE array
   const images = [
     "https://res.cloudinary.com/dgm9hbcb1/image/upload/v1763269374/g9hypaessi1ynny6v1ox.jpg",
@@ -50,7 +52,9 @@ export default function MembershipGallery() {
 
             <div className="mx-auto text-center">
                 {/* Button */}
-                <button className="bg-gradient-to-r from-purple-500 to-blue-500 w-[200px] md:w-[250px] px-4 md:px-8 py-2 md:py-3 rounded-full font-semibold shadow-lg hover:opacity-90 transition mb-16 text-[12px] md:text-[16px]">
+                <button 
+                onClick={() => router.push("/contact")}
+                className="bg-gradient-to-r from-purple-500 to-blue-500 w-[200px] md:w-[250px] px-4 md:px-8 py-2 md:py-3 rounded-full font-semibold shadow-lg hover:opacity-90 transition mb-16 text-[12px] md:text-[16px]">
                 Apply for Membership
                 </button>
 

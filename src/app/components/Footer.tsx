@@ -22,11 +22,11 @@ export default function Footer() {
 
         {/* Navigation */}
         <div className="flex flex-col md:flex-row my-auto  space-y-4 md:space-y-0  md:space-x-10 text-[15px] font-medium text-black p-4 text-center w-full">
-          <a href="#">Home</a>
-          <a href="#">About</a>
-          <a href="#">Startups</a>
-          <a href="#">Events</a>
-          <a href="#">Contact</a>
+          <a href="/">Home</a>
+          <a href="/about">About</a>
+          <a href="/startups">Startups</a>
+          <a href="/events">Events</a>
+          <a href="/contact">Contact</a>
         </div>
 
         {/* Social Icons */}

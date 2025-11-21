@@ -119,9 +119,9 @@ const onTouchMove = (e: TouchEvent<HTMLDivElement>) => {
                     </p>
 
                     <div className="mt-4 flex gap-4 justify-center text-gray-600">
-                      <FaFacebook size={20} />
-                      <FaSquareXTwitter size={20} className="text-black" />
-                      <FaLinkedin size={20} className="text-gray-700" />
+                      <a href={founder.facebook}><FaFacebook size={20} /></a>
+                      <a href={founder.linkedin}><FaLinkedin size={20} className="text-gray-700" /></a>
+                      <a href={founder.youtube}><FaYoutube size={20} className="text-gray-700" /></a>
                     </div>
                   </div>
                 </div>

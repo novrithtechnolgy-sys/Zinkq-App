@@ -60,7 +60,7 @@ export default function OnlineSessions() {
           </p>
 
           {/* CTA Button */}
-          <button className="mt-4 md:mt-8 w-[250px] font-roboto text-[10px] md:text-[14px] lg:text-[16px] bg-white text-purple-700 font-semibold rounded-full px-6 py-2 md:py-3 shadow hover:bg-gray-100 transition flex items-center gap-2 w-fit">
+          <button className="mt-4 md:mt-8 w-[250px] font-roboto text-[12px] md:text-[16px] bg-white text-purple-700 font-semibold rounded-full px-6 py-2 md:py-3 shadow hover:bg-gray-100 transition flex items-center gap-2 w-fit">
             Join an Online Session <FaChevronRight />
           </button>
         </div>

@@ -69,7 +69,7 @@ export default function WhyJoinZinkq() {
           <button
           type="button"
           onClick={() => router.push("/contact")}
-          className="mt-6 mt-6 px-4 md:px-8 py-2 md:py-3 w-[200px] md:w-[250px] rounded-full bg-gradient-to-r from-purple-600 to-blue-500 text-white font-medium text-[12px] md:text-[16px]">
+          className="mt-6 mt-6 px-4 md:px-8 py-2 md:py-3 w-[200px] md:w-[250px] rounded-full bg-gradient-to-r from-purple-600 to-blue-500 text-white font-semibold text-[12px] md:text-[16px]">
             Become a Member
           </button>
         </div>
@@ -77,7 +77,7 @@ export default function WhyJoinZinkq() {
         {/* RIGHT IMAGE */}
         <div className="order-1 lg:order-2">
           <Image
-            src="https://res.cloudinary.com/dgm9hbcb1/image/upload/v1763115529/nkxhgeiy5ekueji2hjzy.jpg"
+            src="https://res.cloudinary.com/dgm9hbcb1/image/upload/v1763312608/z1ezx1vxnypdsaddet1n.jpg"
             alt="Team working together"
             width={900}
             height={600}

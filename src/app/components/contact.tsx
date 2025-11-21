@@ -108,7 +108,7 @@ export default function Contactpage() {
             </div>
           </form>
 
-          <button className="mt-6 w-[200px] md:w-[250px] bg-gradient-to-r from-purple-500 to-blue-500 text-[12px] md:text-[16px] text-white py-2 md:py-3 rounded-3xl font-medium">
+          <button className="mt-6 w-[200px] md:w-[250px] bg-gradient-to-r from-purple-500 to-blue-500 text-[12px] md:text-[16px] text-white py-2 md:py-3 rounded-3xl font-semibold">
             Send Message
           </button>
         </div>

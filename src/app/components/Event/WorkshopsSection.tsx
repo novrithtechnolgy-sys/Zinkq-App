@@ -37,10 +37,10 @@ export default function WorkshopsSection() {
             Format: In-person & hybrid
           </p>
 
-          <button className="flex w-[200px] md:w-[250px] items-center justify-center pl-3 mt-2 md:mt-6 py-2 md:py-3 rounded-full text-white font-medium font-roboto text-[12px] md:text-[16px]
+          <button className="flex w-[200px] md:w-[250px] items-center justify-center pl-3 mt-2 md:mt-6 py-2 md:py-3 rounded-full text-white font-semibold font-roboto text-[12px] md:text-[16px]
             bg-gradient-to-r from-purple-500 to-blue-500
             hover:opacity-90 transition">
-            View Upcoming Workshops <FaChevronRight className="ml-1"/>
+            Upcoming Workshops <FaChevronRight className="ml-3"/>
           </button>
         </div>
 

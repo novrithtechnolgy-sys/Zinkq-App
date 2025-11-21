@@ -82,8 +82,8 @@ export default function Navbar() {
 
         {/* Desktop Join Button */}
         <Link
-          href="#"
-          className="hidden md:block text-center text-[12px] md:text-[16px] w-[150px] font-roboto font-semibold px-6 md:py-1 lg:py-2 rounded-full bg-gradient-to-r from-purple-500 to-blue-500 text-white font-medium shadow-sm"
+          href="/contact"
+          className="hidden md:block text-center text-[12px] md:text-[16px] w-[120px] font-roboto font-semibold px-6 md:py-1 lg:py-2 rounded-full bg-gradient-to-r from-purple-500 to-blue-500 text-white font-medium shadow-sm"
         >
           Join Now
         </Link>
@@ -110,7 +110,7 @@ export default function Navbar() {
 
             {/* Mobile Join Button */}
             <Link
-              href="#"
+              href="/contact"
               className="mt-2 justify-center items-center px-10 py-2 md:py-3 text-[12px] w-[150px] text-center rounded-full bg-gradient-to-r from-purple-500 to-blue-500 text-white font-semibold shadow-sm"
               onClick={() => setOpen(false)}
             >

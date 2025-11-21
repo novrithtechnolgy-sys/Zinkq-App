@@ -21,7 +21,7 @@ export default function Footer() {
         </div>
 
         {/* Navigation */}
-        <div className="flex flex-col md:flex-row my-auto  space-y-4 md:space-y-0  md:space-x-10 text-[15px] font-medium text-black p-4 text-center w-full">
+        <div className="flex flex-col md:flex-row my-auto justify-center space-y-4 md:space-y-0  md:space-x-10 text-[15px] font-medium text-black p-4 text-center w-full ">
           <a href="/">Home</a>
           <a href="/about">About</a>
           <a href="/startups">Startups</a>
@@ -33,7 +33,6 @@ export default function Footer() {
         <div className="flex flex-row space-y-4 md:space-y-0 space-x-6 text-[18px] text-black p-4 text-center w-full justify-center md:justify-end">
           <FaFacebook />
           <FaInstagram />
-          <FaXTwitter />
           <FaLinkedin />
           <FaYoutube />
         </div>
@@ -43,7 +42,7 @@ export default function Footer() {
       <div className="w-full border-t my-10 "></div>
 
       {/* BOTTOM ROW */}
-      <div className="flex flex-col md:flex-row justify-center items-center text-sm text-gray-700 px-4">
+      <div className="flex flex-col md:flex-row justify-center items-center text-sm text-gray-700 px-4 md:space-x-10">
         
         <p>© 2025 Zinkq. All rights reserved.</p>
 

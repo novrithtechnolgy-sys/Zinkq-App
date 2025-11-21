@@ -3,7 +3,7 @@
 import { urlFor } from "@/sanity/lib/image";
 import Image from "next/image";
 import { useState, useEffect } from "react";
-import { FaArrowDown, FaArrowUp, FaCheckCircle, FaFacebook, FaLinkedin, FaSearch } from "react-icons/fa";
+import { FaArrowDown, FaArrowUp, FaCheckCircle, FaFacebook, FaLinkedin, FaSearch, FaYoutube } from "react-icons/fa";
 import { FaSquareXTwitter, FaXTwitter } from "react-icons/fa6";
 
 export default function StartupMembers() {
@@ -106,7 +106,7 @@ export default function StartupMembers() {
               className="flex-1 bg-transparent outline-none text-gray-700 placeholder-gray-400 px-2"
             />
 
-            <FaSearch className="text-2xl text-black mr-4"/>
+            <FaSearch className="text-[20px] text-gray-400 mr-4"/>
 
             <div className="hidden md:block flex items-center gap-6 text-sm font-medium">
               <button
@@ -148,7 +148,7 @@ export default function StartupMembers() {
                 {/* CARD */}
                 <div
                   onClick={() => setSelected(isSelected ? null : f)}
-                  className={`cursor-pointer border rounded-xl overflow-hidden transition text-[#1A1A1A] flex flex-row md:flex-col justify-between md:h-full justify-start
+                  className={`cursor-pointer border border-gray-400 rounded-xl overflow-hidden transition text-[#1A1A1A] flex flex-row md:flex-col justify-between md:h-full justify-start
                   ${isSelected ? "bg-purple-100 border-purple-400" : "bg-white"}`}
                 >
                   <Image
@@ -165,9 +165,10 @@ export default function StartupMembers() {
                     <p className="font-roboto text-[12px] md:text-[14px] text-gray-500 mt-1">{f.expect}</p>
 
                     <div className="flex justify-center gap-4 mt-3 text-gray-700">
-                      <a href={f.linkedin}><FaLinkedin /></a>
-                      <a href={f.twitter}><FaXTwitter /></a>
                       <a href={f.facebook}><FaFacebook /></a>
+                      <a href={f.linkedin}><FaLinkedin /></a>
+                      <a href={f.twitter}><FaYoutube /></a>
+                   
                     </div>
                   </div>
 
@@ -243,9 +244,10 @@ export default function StartupMembers() {
                 <p className="text-gray-500">{selected.expect}</p>
 
                 <div className="flex gap-4 mt-3 text-gray-700">
-                  <a href={selected.linkedin}><FaLinkedin /></a>
-                  <a href={selected.twitter}><FaXTwitter /></a>
-                  <a href={selected.facebook}><FaFacebook /></a>
+                   <a href={selected.facebook}><FaFacebook /></a>
+                   <a href={selected.linkedin}><FaLinkedin /></a>
+                   <a href={selected.twitter}><FaYoutube /></a>
+                 
                 </div>
               </div>
             </div>

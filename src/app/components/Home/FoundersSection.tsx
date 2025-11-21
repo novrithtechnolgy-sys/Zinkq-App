@@ -3,8 +3,8 @@
 import Image from "next/image";
 import { useRouter } from "next/navigation";
 import { useState, useEffect } from "react";
-import { FaFacebook, FaLinkedin } from "react-icons/fa";
-import { FaSquareXTwitter } from "react-icons/fa6";
+import { FaFacebook, FaLinkedin, FaYoutube } from "react-icons/fa";
+import { FaSquareXTwitter, FaY } from "react-icons/fa6";
 
 export default function FoundersSection() {
   const router = useRouter();
@@ -44,7 +44,7 @@ export default function FoundersSection() {
         </h2>
 
         <p className="font-roboto text-[14px] md:text-[16px] lg:text-[20px] text-gray-600 max-w-2xl mx-auto mb-10 md:mb-16">
-          Every Zinkq member has a story worth sharing — from first-time
+          Every Zinkq member has a story worth sharing from first-time
           founders to established disruptors.
         </p>
 
@@ -71,9 +71,9 @@ export default function FoundersSection() {
                 </p>
 
                 <div className="mt-4 flex gap-4 justify-center text-gray-600">
-                  <FaFacebook size={20} />
-                  <FaSquareXTwitter size={20} className="text-black" />
-                  <FaLinkedin size={20} className="text-gray-700" />
+                  <a href={founder.facebook}><FaFacebook size={20} /></a>
+                  <a href={founder.linkedin}><FaLinkedin size={20} className="text-gray-700" /></a>
+                  <a href={founder.youtube}><FaYoutube size={20} className="text-gray-700" /></a>
                 </div>
               </div>
             </div>
@@ -141,7 +141,7 @@ export default function FoundersSection() {
         <div className="mt-6 md:mt-10">
           <button 
           onClick={() => router.push("/startups")}
-          className="bg-gradient-to-r from-purple-500 to-blue-500 text-white w-[200px] md:w-[250px] px-4 md:px-8 py-2 md:py-3 rounded-full font-medium shadow-lg hover:opacity-90 transition text-[12px] md:text-[16px]">
+          className="bg-gradient-to-r from-purple-500 to-blue-500 text-white w-[200px] md:w-[250px] px-4 md:px-8 py-2 md:py-3 rounded-full font-semibold shadow-lg hover:opacity-90 transition text-[12px] md:text-[16px]">
             View Member Stories
           </button>
         </div>

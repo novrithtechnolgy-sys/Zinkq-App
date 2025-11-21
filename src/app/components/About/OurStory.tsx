@@ -10,13 +10,13 @@ export default function OurStory() {
 
         {/* Paragraph */}
         <p className="text-gray-700 leading-relaxed font-roboto text-[14px] md:text-[16px] lg:text-[20px]">
-          Zinkq was born from a simple realization — entrepreneurship can be lonely.
+          Zinkq was born from a simple realization that entrepreneurship can be lonely.
           Too many dreamers give up because they don’t have the right people around
           them. Founded by entrepreneurs who’ve lived that reality, Zinkq exists to
           bring together the builders, thinkers, and doers who are shaping the
           future. We started with a few passionate founders and grew into a national
-          community of innovators — from tech startups to creative studios and social
-          enterprises. At Zinkq, we believe the next great startup doesn’t need luck —
+          community of innovators from tech startups to creative studios and social
+          enterprises. At Zinkq, we believe the next great startup doesn’t need luck
           it needs a network.
         </p>
       </div>

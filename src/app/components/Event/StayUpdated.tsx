@@ -25,9 +25,9 @@ export default function StayUpdated() {
       </div>
 
       {/* CIRCLES DECORATION */}
-      <div className="absolute right-[-50px] md:right-[10px] top-[120px] md:top-[140px] w-[200px] h-[200px] lg:w-[400px] lg:h-[400px] bg-[#6F00FF] shadow-2xl opacity-80  rounded-full "></div>
-      <div className="absolute right-[-100px] md:right-[-120px] top-[60px] md:top-[-30px] w-[200px] h-[200px] lg:w-[400px] lg:h-[400px] bg-[#6F00FF] shadow-2xl rounded-full opacity-80 "></div>
-      <div className="absolute  right-[-130px] md:right-[-150px] bottom-[-100px]  w-[200px] h-[200px] lg:w-[400px] lg:h-[400px] bg-[#6F00FF] shadow-2xl rounded-full z-10 opacity-80"></div>
+      <div className="absolute right-[-50px] md:right-[10px] top-[120px] md:top-[140px] w-[200px] h-[200px] md:w-[300px] md:h-[300px] lg:w-[400px] lg:h-[400px] bg-[#6F00FF] shadow-2xl opacity-80  rounded-full "></div>
+      <div className="absolute right-[-100px] md:right-[-120px] top-[60px] md:top-[-30px] w-[200px] h-[200px] md:w-[300px] md:h-[300px] lg:w-[400px] lg:h-[400px] bg-[#6F00FF] shadow-2xl rounded-full opacity-80 "></div>
+      <div className="absolute  right-[-130px] md:right-[-150px] bottom-[-100px]  w-[200px] h-[200px] md:w-[300px] md:h-[300px] lg:w-[400px] lg:h-[400px] bg-[#6F00FF] shadow-2xl rounded-full z-10 opacity-80"></div>
 
       <div className="absolute left-[-100px] bottom-[40px] w-[200px] h-[400px]  lg:w-[700px] lg:h-[500px] bg-[#6F00FF] shadow-2xl rounded-full blur-xl"></div>
 

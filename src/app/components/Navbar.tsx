@@ -103,6 +103,11 @@ export default function Navbar() {
                 key={item.href}
                 href={item.href}
                 onClick={() => setOpen(false)}
+                className={`relative pb-1 transition-all ${
+                  pathname === item.href
+                    ? "text-blue-600 font-semibold"
+                    : "text-gray-700 hover:text-blue-500"
+                }`}
               >
                 {item.label}
               </Link>

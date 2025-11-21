@@ -5,11 +5,13 @@ import { useRouter } from "next/navigation";
 import { useState, useEffect } from "react";
 import { FaFacebook, FaLinkedin, FaYoutube } from "react-icons/fa";
 import { FaSquareXTwitter, FaY } from "react-icons/fa6";
+import { TouchEvent } from "react";
 
 export default function FoundersSection() {
   const router = useRouter();
 
   const [founders, setFounders] = useState<any[]>([]);
+    const [startX, setStartX] = useState(0);
   const [index, setIndex] = useState(0);
 
   useEffect(() => {
@@ -18,22 +20,26 @@ export default function FoundersSection() {
       .then((data) => setFounders(data.slice(0, 3)));
   }, []);
 
-  let startX = 0;
 
-  const onTouchStart = (e: any) => {
-    startX = e.touches[0].clientX;
-  };
 
-  const onTouchMove = (e: any) => {
-    const currentX = e.touches[0].clientX;
-    const diff = startX - currentX;
+const onTouchStart = (e: TouchEvent<HTMLDivElement>) => {
+  setStartX(e.touches[0].clientX);
+};
 
-    if (diff > 50 && index < founders.length - 1) {
-      setIndex(index + 1);
-    } else if (diff < -50 && index > 0) {
-      setIndex(index - 1);
-    }
-  };
+const onTouchMove = (e: TouchEvent<HTMLDivElement>) => {
+  const diff = startX - e.touches[0].clientX;
+
+  if (diff > 50 && index < founders.length - 1) {
+    setIndex(index + 1);
+    setStartX(e.touches[0].clientX);
+  }
+
+  if (diff < -50 && index > 0) {
+    setIndex(index - 1);
+    setStartX(e.touches[0].clientX);
+  }
+};
+
 
   return (
     <section className="md:py-8 text-white mx-2 md:mx-4 lg:mx-8">

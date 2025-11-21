@@ -32,8 +32,8 @@ export default {
       type: "url",
     },
     {
-      name: "twitter",
-      title: "Twitter URL",
+      name: "youtube",
+      title: "Youtube URL",
       type: "url",
     },
     {

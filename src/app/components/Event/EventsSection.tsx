@@ -20,11 +20,11 @@ export default function EventsSection() {
       </p>
 
       {/* Card */}
-      <div className="relative mt-10 rounded-3xl overflow-hidden border-[2px] md:border-[3px] border-[#6F00FF]">
+      <div className="relative mt-10 rounded-3xl overflow-hidden ">
         {/* LEFT PURPLE + NEON BACKGROUND */}
         <div className="absolute inset-0 ">
           <div className="absolute inset-0 bg-gradient-to-r from-[#6F00FF] via-[#8E00FF] to-transparent opacity-80 z-10" />
-          <div className="absolute inset-0 mt-[-200px] md:mt-[-280px] ml-[-140px] md:ml-[-100px] bg-transparent w-[500px]">
+          {/* <div className="absolute inset-0 mt-[-200px] md:mt-[-280px] ml-[-140px] md:ml-[-100px] bg-transparent w-[500px]">
           <Image
             src={neon}
             alt="Neon Shape"
@@ -33,7 +33,7 @@ export default function EventsSection() {
             priority
             quality={100}
           />
-          </div>
+          </div> */}
         </div>
 
         {/* Content & Right Image */}

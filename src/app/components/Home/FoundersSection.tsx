@@ -147,7 +147,7 @@ const onTouchMove = (e: TouchEvent<HTMLDivElement>) => {
         <div className="mt-6 md:mt-10">
           <button 
           onClick={() => router.push("/startups")}
-          className="bg-gradient-to-r from-purple-500 to-blue-500 text-white w-[200px] md:w-[250px] px-4 md:px-8 py-2 md:py-3 rounded-full font-semibold shadow-lg hover:opacity-90 transition text-[12px] md:text-[16px]">
+          className="bg-gradient-to-r from-purple-500 to-blue-500 text-white w-[200px] md:w-[250px] px-4 md:px-8 py-2 md:py-3 cursor-pointer rounded-full font-semibold shadow-lg hover:opacity-90 transition text-[12px] md:text-[16px]">
             View Member Stories
           </button>
         </div>

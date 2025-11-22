@@ -32,7 +32,7 @@ export default function StayUpdated() {
       <div className="absolute left-[-100px] bottom-[40px] w-[200px] h-[400px]  lg:w-[700px] lg:h-[500px] bg-[#6F00FF] shadow-2xl rounded-full blur-xl"></div>
 
       {/* CONTENT */}
-      <div className="relative z-10 px-8 md:px-20 py-10 md:py-20 text-white max-w-3xl">
+      <div className="relative z-10 px-8 md:px-14 py-10 md:py-20 text-white max-w-3xl">
         <h2 className="font-roboto text-[16px] md:text-[30px] lg:text-[48px] font-bold">Stay Updated</h2>
 
         <p className="mt-2 font-roboto text-[14px] md:text-[16px] lg:text-[20px] leading-relaxed max-w-xl">
@@ -41,9 +41,11 @@ export default function StayUpdated() {
         </p>
 
         {/* Button */}
-        <button className="flex items-center justify-center text-center mt-6 w-[200px] md:w-[250px] px-6 py-2 md:py-3 bg-white text-[12px] md:text-[16px] text-purple-700 font-semibold rounded-full flex items-center gap-2 hover:bg-gray-100 transition">
+        <a
+          href="/subcribe"
+         className="flex items-center justify-center text-center mt-6 w-[200px] md:w-[250px] px-6 py-2 md:py-3 bg-white text-[12px] md:text-[16px] text-purple-700 font-semibold rounded-full flex items-center gap-2 hover:bg-gray-100 transition">
           Subscribe Now <FaChevronRight className=" ml-2 text-purple-700" />
-        </button>
+        </a>
       </div>
     </div>
     </div>

@@ -219,10 +219,10 @@ export default function Contactpage() {
             </div>
 
             <div className="flex space-x-4 text-white text-xl">
-              <FiFacebook />
-              <FiInstagram />
-              <FiLinkedin /> 
-              <FiYoutube />
+              <a href="https://www.facebook.com/profile.php?id=61579360235881#"><FiFacebook /></a>
+              <a href="https://www.instagram.com/networkwith.zinkq"><FiInstagram /></a>
+              <a href="https://www.linkedin.com/company/zinkq/"><FiLinkedin /></a> 
+              {/* <a><FiYoutube /></a> */}
             </div>
           </div>
         </div>

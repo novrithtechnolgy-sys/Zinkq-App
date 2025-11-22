@@ -25,8 +25,8 @@ export default function BrandCTA() {
         </h2>
 
         <a
-          href="/contact"
-          className="inline-flex items-center justify-center w-[200px] md:w-[250px] px-6 py-2 md:py-3 bg-white text-purple-700 font-semibold rounded-full text-[12px] md:text-[16px] hover:bg-gray-100 transition"
+          href="https://forms.gle/vfL7BqW52XJEi6Ds7"
+          className="inline-flex items-center justify-center cursor-pointer w-[200px] md:w-[250px] px-6 py-2 md:py-3 bg-white text-purple-700 font-semibold rounded-full text-[12px] md:text-[16px] hover:bg-gray-100 transition"
         >
           Submit Your Startup <FaChevronRight className="ml-2" />
         </a>

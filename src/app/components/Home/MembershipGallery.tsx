@@ -53,8 +53,8 @@ export default function MembershipGallery() {
             <div className="mx-auto text-center">
                 {/* Button */}
                 <button 
-                onClick={() => router.push("/contact")}
-                className="bg-gradient-to-r from-purple-500 to-blue-500 w-[200px] md:w-[250px] px-4 md:px-8 py-2 md:py-3 rounded-full font-semibold shadow-lg hover:opacity-90 transition mb-16 text-[12px] md:text-[16px]">
+                onClick={() => window.open("https://forms.gle/vfL7BqW52XJEi6Ds7", "_blank")}
+                className="bg-gradient-to-r from-purple-500 to-blue-500 w-[200px] md:w-[250px] px-4 md:px-8 py-2 md:py-3 cursor-pointer rounded-full font-semibold shadow-lg hover:opacity-90 transition mb-16 text-[12px] md:text-[16px]">
                 Apply for Membership
                 </button>
 

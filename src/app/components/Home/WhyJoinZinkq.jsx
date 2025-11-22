@@ -68,8 +68,8 @@ export default function WhyJoinZinkq() {
 
           <button
           type="button"
-          onClick={() => router.push("/contact")}
-          className="mt-6 mt-6 px-4 md:px-8 py-2 md:py-3 w-[200px] md:w-[250px] rounded-full bg-gradient-to-r from-purple-600 to-blue-500 text-white font-semibold text-[12px] md:text-[16px]">
+          onClick={() => window.open("https://forms.gle/vfL7BqW52XJEi6Ds7", "_blank")}
+          className="mt-6 mt-6 px-4 md:px-8 py-2 md:py-3 w-[200px] md:w-[250px] cursor-pointer rounded-full bg-gradient-to-r from-purple-600 to-blue-500 text-white font-semibold text-[12px] md:text-[16px]">
             Become a Member
           </button>
         </div>

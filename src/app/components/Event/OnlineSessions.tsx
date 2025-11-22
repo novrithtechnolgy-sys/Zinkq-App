@@ -19,7 +19,7 @@ export default function OnlineSessions() {
       <div className="bg-white rounded-3xl overflow-hidden shadow-sm flex flex-col md:flex-row">
         
         {/* LEFT SIDE */}
-        <div className="flex-1 p-8 md:p-12 bg-gradient-to-r from-[#6F00FF] via-[#5022F8] to-[#007BFF] text-white flex flex-col justify-center">
+        <div className="flex-1 p-8 md:p-14 bg-gradient-to-r from-[#6F00FF] via-[#5022F8] to-[#007BFF] text-white flex flex-col justify-center">
           
           <h3 className="font-roboto text-[16px] md:text-[18px] lg:text-[24px] font-bold mb-2">
             Can’t join in person? No problem.
@@ -60,7 +60,7 @@ export default function OnlineSessions() {
           </p>
 
           {/* CTA Button */}
-          <button className="mt-4 md:mt-8 w-[250px] font-roboto text-[12px] md:text-[16px] bg-white text-purple-700 font-semibold rounded-full px-6 py-2 md:py-3 shadow hover:bg-gray-100 transition flex items-center gap-2 w-fit">
+          <button className="mt-4 md:mt-8 cursor-pointer w-[250px] font-roboto text-[12px] md:text-[16px] bg-white text-purple-700 font-semibold rounded-full px-6 py-2 md:py-3 shadow hover:bg-gray-100 transition flex items-center gap-2 w-fit">
             Join an Online Session <FaChevronRight />
           </button>
         </div>

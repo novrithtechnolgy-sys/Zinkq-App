@@ -39,7 +39,7 @@ export default function EventsSection() {
         {/* Content & Right Image */}
         <div className="relative grid ">
           {/* LEFT TEXT */}
-          <div className="p-2 md:p-10 md:pt-14 md:p-14 text-white z-20">
+          <div className="p-2 md:pt-14 md:p-14 text-white z-20">
             <h3 className="text-[16px] md:text-[30px] lg:text-[48px] font-roboto font-extrabold leading-snug">
               Zinkq Connect Monthly<br />Networking Meetup
             </h3>
@@ -52,8 +52,8 @@ export default function EventsSection() {
             </p>
 
             <div className="mt-2 md:mt-8">
-              <a href="/contact"
-              className="inline-block flex items-center text-center justify-center bg-white w-[200px] md:w-[250px] text-[#6F00FF] px-6 py-2 md:py-3 rounded-full font-roboto text-[12px] md:text-[16px] font-semibold shadow-lg">
+              <a href="https://forms.gle/vfL7BqW52XJEi6Ds7"
+              className="inline-block cursor-pointer flex items-center text-center justify-center bg-white w-[200px] md:w-[250px] text-[#6F00FF] px-6 py-2 md:py-3 rounded-full font-roboto text-[12px] md:text-[16px] font-semibold shadow-lg">
                 Submit Your Startup
               </a>
             </div>

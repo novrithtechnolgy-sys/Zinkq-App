@@ -37,8 +37,8 @@ export default function Hero() {
 
           <button
             type="button"
-             onClick={() => router.push("/contact")}
-            className="relative pointer-cursor mt-6 px-4 md:px-8 py-2 md:py-3 rounded-full bg-gradient-to-r from-purple-500 to-blue-500 text-white font-semibold shadow-md mb-10 text-[12px] md:text-[16px] w-[200px] md:w-[250px]">
+             onClick={() => window.open("https://forms.gle/vfL7BqW52XJEi6Ds7", "_blank")}
+            className="relative cursor-pointer mt-6 px-4 md:px-8 py-2 md:py-3 rounded-full bg-gradient-to-r from-purple-500 to-blue-500 text-white font-semibold shadow-md mb-10 text-[12px] md:text-[16px] w-[200px] md:w-[250px]">
             Join Zinkq Now
           </button>
         </div>

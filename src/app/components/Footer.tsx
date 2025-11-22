@@ -31,10 +31,10 @@ export default function Footer() {
 
         {/* Social Icons */}
         <div className="flex flex-row space-y-4 md:space-y-0 space-x-6 text-[18px] text-black p-4 text-center w-full justify-center md:justify-end">
-          <FaFacebook />
-          <FaInstagram />
-          <FaLinkedin />
-          <FaYoutube />
+          <a href="https://www.facebook.com/profile.php?id=61579360235881#"><FaFacebook /></a>
+          <a href="https://www.instagram.com/networkwith.zinkq"><FaInstagram /></a>
+          <a href="https://www.linkedin.com/company/zinkq/"><FaLinkedin /></a>
+          {/* <a><FaYoutube /></a> */}
         </div>
       </div>
 

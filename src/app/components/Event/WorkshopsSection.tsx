@@ -6,10 +6,10 @@ import { FaArrowLeft, FaCheckCircle, FaChevronRight } from "react-icons/fa";
 export default function WorkshopsSection() {
   return (
     <section className="md:py-14 mx-2 md:mx-4 lg:mx-8 py-4">
-      <div className="md:px-10 xl:px-12 2xl:px-20 mx-auto px-6 rounded-xl md:rounded-3xl  py-4 md:py-8 grid grid-cols-1 md:grid-cols-2 gap-12">
+      <div className="md:px-10 xl:px-12 2xl:px-20 mx-auto px-2 rounded-xl md:rounded-3xl  py-4 md:py-8 grid grid-cols-1 md:grid-cols-2 gap-12">
 
         {/* LEFT SIDE */}
-        <div className="flex flex-col justify-center">
+        <div className="flex flex-col justify-center px-4 md:px-0">
           <h2 className="font-roboto text-[20px] md:text-[38px] lg:text-[56px] font-bold leading-tight">
             Workshops <span className="text-transparent bg-clip-text bg-[linear-gradient(117.43deg,#6F00FF_24.32%,#5022F8_44.06%,#2E49F0_70.24%,#1565EA_94.36%,#0576E6_115.43%,#007CE5_131.13%)]">&amp; Skill Labs</span>
           </h2>

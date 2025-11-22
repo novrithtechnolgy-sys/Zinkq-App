@@ -221,8 +221,8 @@ export default function Contactpage() {
             <div className="flex space-x-4 text-white text-xl">
               <FiFacebook />
               <FiInstagram />
+              <FiLinkedin /> 
               <FiYoutube />
-              <FiLinkedin />
             </div>
           </div>
         </div>

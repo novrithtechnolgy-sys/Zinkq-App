@@ -206,12 +206,12 @@ export default function StartupMembers() {
                     alt={b.title}
                     width={100}
                     height={100}
-                    className="rounded-lg"
+                    className="rounded-lg object-cover"
                   />
                   <div className="p-4">
-                    <p className="text-[16px] font-bold">{b.year}</p>
-                    <h4 className="font-semibold text-[16px]">{b.title}</h4>
-                    <p className="text-sm text-gray-600 text-[12px]">{b.desc}</p>
+                    <p className="font-roboto text-[14px] font-bold">{b.year}</p>
+                    <h4 className="font-semibold font-roboto text-[14px]">{b.title}</h4>
+                    <p className="text-gray-600 font-roboto text-[12px]">{b.desc}</p>
                   </div>
                 </div>
               ))}
@@ -277,9 +277,9 @@ export default function StartupMembers() {
                     className="rounded-lg"
                   />
                   <div>
-                    <p className="text-sm font-bold">{b.year}</p>
-                    <h4 className="font-semibold">{b.title}</h4>
-                    <p className="text-sm text-gray-600">{b.desc}</p>
+                    <p className="font-roboto text-[12px] md:text-[16px] font-bold">{b.year}</p>
+                    <h4 className="font-roboto text-[12px] md:text-[16px] font-semibold">{b.title}</h4>
+                    <p className="font-roboto text-[10px] md:text-[14px] text-gray-600">{b.desc}</p>
                   </div>
                 </div>
               ))}

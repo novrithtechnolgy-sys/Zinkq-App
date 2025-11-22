@@ -253,7 +253,7 @@ export default function StartupMembers() {
             </div>
 
             <h3 className="font-roboto text-[14px] md:text-[24px] lg:text-[40px] font-bold mt-10 mb-3">Startup Summary</h3>
-            <p className="text-gray-700 font-roboto text-[14px] md:text-[16px] lg:text-[20px] leading-relaxed">{selected.summary}</p>
+            <p className="text-gray-700 font-roboto text-[14px] md:text-[16px] lg:text-[20px] text-justify leading-relaxed">{selected.summary}</p>
 
             <h3 className="font-roboto text-[16px] md:text-[18px] lg:text-[24px] font-bold mt-10 mb-3">Services</h3>
             <ul className="space-y-3 font-roboto text-[14px] md:text-[16px] lg:text-[20px]">

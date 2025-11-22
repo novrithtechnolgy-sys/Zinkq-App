@@ -6,7 +6,7 @@ import { FaArrowLeft, FaCheckCircle, FaChevronRight } from "react-icons/fa";
 export default function WorkshopsSection() {
   return (
     <section className="md:py-14 mx-2 md:mx-4 lg:mx-8 py-4">
-      <div className="md:px-10 xl:px-12 2xl:px-20 mx-auto px-2 rounded-xl md:rounded-3xl  py-4 md:py-8 grid grid-cols-1 md:grid-cols-2 gap-12">
+      <div className="md:px-10 xl:px-12 2xl:px-20 mx-auto px-6 rounded-xl md:rounded-3xl  py-4 md:py-8 grid grid-cols-1 md:grid-cols-2 gap-12">
 
         {/* LEFT SIDE */}
         <div className="flex flex-col justify-center">

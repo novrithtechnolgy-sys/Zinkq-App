@@ -186,7 +186,7 @@ export default function StartupMembers() {
                     <p className="text-gray-500 mb-4 font-roboto text-[14px]">{f.expect}</p>
 
                     <h4 className="font-bold mt-3">Summary</h4>
-                    <p className="text-gray-500 font-roboto text-[14px]">{f.summary}</p>
+                    <p className="text-gray-500 font-roboto text-[14px] text-justify">{f.summary}</p>
 
                     <h4 className="font-bold mt-3">Services</h4>
                     <ul className="mt-2 space-y-1">

@@ -159,7 +159,7 @@ export default function StartupMembers() {
                     className="w-2/5 md:w-full md:h-48 object-cover"
                   />
 
-                  <div className="p-4 text-center">
+                  <div className="p-4 text-center w-full">
                     <h3 className="font-roboto md:text-[20px] text-[16px] font-bold">{f.name}</h3>
                     <p className="font-roboto text-[14px] md:text-[16px] text-gray-600">{f.role}</p>
                     <p className="font-roboto text-[12px] md:text-[14px] text-gray-500 mt-1">{f.expect}</p>
@@ -173,8 +173,10 @@ export default function StartupMembers() {
                   </div>
 
                   {/* Arrow for Mobile */}
-                  <div className="md:hidden p-2 flex items-center rounded-xl justify-center bg-purple-800 text-white">
+                  <div className="md:hidden flex items-center flex-row justify-end w-[100px]">
+                    <div className="p-2 flex items-center rounded-xl  bg-purple-800 text-white h-full">
                     {isSelected ? <FaArrowUp /> : <FaArrowDown />}
+                  </div>
                   </div>
                 </div>
 

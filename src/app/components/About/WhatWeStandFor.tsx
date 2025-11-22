@@ -13,11 +13,11 @@ export default function WhatWeStandFor() {
         
         {/* LEFT SIDE */}
         <div className="order-2 md:order-1">
-          <h2 className="font-roboto px-4 md:px-0 text-[20px] md:text-[38px] lg:text-[56px] font-bold text-gray-900 mb-4">
+          <h2 className="font-roboto px-2 md:px-0 text-[20px] md:text-[38px] lg:text-[56px] font-bold text-gray-900 mb-4">
             What We Stand For
           </h2>
 
-          <ul className="space-y-3 px-4 md:px-0 font-roboto text-[14px] md:text-[16px] lg:text-[20px] text-gray-700">
+          <ul className="space-y-3 px-2 md:px-0 font-roboto text-[14px] md:text-[16px] lg:text-[20px] text-gray-700">
             <li className="flex items-start gap-3">
               <FaUsers className="text-blue-600 w-6 h-6 mt-1" />
               <p>
@@ -78,11 +78,11 @@ export default function WhatWeStandFor() {
         
         {/* LEFT SIDE */}
         <div className="order-2 md:order-2 ">
-          <h2 className="font-roboto px-4 md:px-0 text-[20px] md:text-[38px] lg:text-[56px] font-bold text-gray-900 mb-4">
+          <h2 className="font-roboto px-2 md:px-0 text-[20px] md:text-[38px] lg:text-[56px] font-bold text-gray-900 mb-4">
             What We Do
           </h2>
 
-<ul className="space-y-3 px-4 md:px-0 font-roboto text-[14px] md:text-[16px] lg:text-[20px] text-gray-700">
+<ul className="space-y-3 px-2 md:px-0 font-roboto text-[14px] md:text-[16px] lg:text-[20px] text-gray-700">
   <li className="flex items-start gap-3">
     <FaCircle className="text-blue-600 mt-1 flex-shrink-0 text-[16px] md:text-[20px]" />
     <p>

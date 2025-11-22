@@ -200,7 +200,7 @@ export default function StartupMembers() {
                     <h3 className="text-[16px] font-bold mt-10">Businesses</h3>
             <div className="grid grid-cols-1 md:grid-cols-2 gap-6 mt-4">
               {selected.businesses?.map((b: any, i: number) => (
-                <div key={i} className="bg-white p- rounded-xl flex gap-4">
+                <div key={i} className="bg-white p- rounded-xl flex gap-1">
                   <Image
                     src={b.image}
                     alt={b.title}

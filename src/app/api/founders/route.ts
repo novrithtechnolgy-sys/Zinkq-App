@@ -3,7 +3,7 @@ import { NextResponse } from "next/server";
 
 export async function GET() {
   const query = `
-    *[_type == "founder"]{
+    *[_type == "founder"] | order(order asc) {
       name,
       role,
       expect,

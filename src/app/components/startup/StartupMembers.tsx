@@ -274,7 +274,7 @@ export default function StartupMembers() {
                     alt={b.title}
                     width={100}
                     height={100}
-                    className="rounded-lg"
+                    className="rounded-lg object-cover"
                   />
                   <div>
                     <p className="font-roboto text-[12px] md:text-[16px] font-bold">{b.year}</p>

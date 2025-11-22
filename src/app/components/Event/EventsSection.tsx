@@ -39,7 +39,7 @@ export default function EventsSection() {
         {/* Content & Right Image */}
         <div className="relative grid ">
           {/* LEFT TEXT */}
-          <div className="p-2 md:pt-14 md:p-14 text-white z-20">
+          <div className="p-6 px-8 md:pt-14 md:p-14 text-white z-20">
             <h3 className="text-[16px] md:text-[30px] lg:text-[48px] font-roboto font-extrabold leading-snug">
               Zinkq Connect Monthly<br />Networking Meetup
             </h3>

@@ -4,6 +4,15 @@ import { FaFacebook, FaInstagram, FaXTwitter, FaLinkedin, FaYoutube } from "reac
 import Image from "next/image";
 
 export default function Footer() {
+    const handleClick = () => {
+    const preferences = document.querySelector(".termly-display-preferences") as HTMLElement;
+    if (preferences) {
+      preferences.click(); // Open Termly consent preferences
+    } else {
+      alert("Cookie preferences are not available yet. Please try again in a few seconds.");
+    }
+  };
+
   return (
     <footer className="w-full pt-10 pb-6 px-4 md:px-14 lg:px-18 xl:px-20 2xl:px-28">
       
@@ -42,15 +51,20 @@ export default function Footer() {
       <div className="w-full border-t my-10 "></div>
 
       {/* BOTTOM ROW */}
-      <div className="flex flex-col md:flex-row justify-center items-center text-sm text-gray-700 px-4 md:space-x-10">
+      <div className="flex flex-col md:flex-row justify-center items-center text-sm text-gray-600 px-4 md:space-x-10">
         
         <p>© 2025 Zinkq. All rights reserved.</p>
 
         <div className="flex space-x-6 mt-4 md:mt-0 justify-center w-full md:w-auto text-center">
-          <a href="#" className="hover:text-black">Privacy policy</a>
-          <a href="#" className="hover:text-black">Terms of service</a>
-          <a href="#" className="hover:text-black">Cookie settings</a>
+          {/* <a href="#" className="hover:text-black">Privacy policy</a>
+          <a href="#" className="hover:text-black">Terms of service</a> */}
+          <a href="#"
+           onClick={handleClick}
+           className="hover:text-black">Cookie settings</a>
         </div>
+
+        <p>Created by <a href="https://www.novrithtechnology.com" className="text-black hover:underline">Novrith Technology</a></p>
+
       </div>
     </footer>
   );

@@ -6,6 +6,10 @@ import WhatWeStandFor from "../components/About/WhatWeStandFor";
 import Heder from "../components/Heder";
 import Navbar from "../components/Navbar";
 
+export const metadata = {
+  title: "Zinkq | About",
+  description: "Zinkq is Sri Lanka’s startup community where founders, innovators, and creators connect, collaborate, and grow through real opportunities.",
+}
 
 export default function About() {
     return (

@@ -38,6 +38,10 @@ export const metadata: Metadata = {
     icon: "/favicon.ico",
     shortcut: "/favicon-16x16.png",
     apple: "/apple-touch-icon.png",
+    other: {
+      rel: "logo",
+      url: "/icon.png"
+    }
   },
   manifest: "/manifest.json",
   openGraph: {
@@ -91,6 +95,7 @@ export default function RootLayout({
             name: "Zinkq",
             url: "https://zinkq.com",
             logo: "https://zinkq.com/icon.png",
+            image: "https://zinkq.com/icon.png",
             description:
               "Zinkq is Sri Lanka’s startup network where founders, innovators, and creators connect to collaborate and grow.",
             sameAs: [

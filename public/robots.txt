@@ -1,0 +1,15 @@
+# *
+User-agent: *
+Allow: /
+
+# *
+User-agent: *
+Disallow: /api/*
+Disallow: /admin/*,/subcribe
+Disallow: /thank-you
+
+# Host
+Host: https://zinkq.com
+
+# Sitemaps
+Sitemap: https://zinkq.com/sitemap.xml

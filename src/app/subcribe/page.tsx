@@ -32,7 +32,7 @@ export default function SubscribePage() {
             name="EMAIL"
             required
             placeholder="Enter your email"
-            className="w-full max-w-md px-5 py-3 rounded-full text-black text-lg outline-none shadow-lg"
+            className="w-full max-w-md px-5 py-3 rounded-full text-white bg-white/10 backdrop-blur-md text-lg outline-none shadow-lg"
           />
 
 

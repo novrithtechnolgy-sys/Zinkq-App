@@ -17,8 +17,8 @@ export default function WhyJoinZinkq() {
       <div className="md:px-10 xl:px-12 2xl:px-20 mx-auto px-2 py-8 md:py-12 rounded-xl md:rounded-3xl bg-[#F0F2F4] grid lg:grid-cols-2 gap-10 items-center">
         
         {/* LEFT CONTENT */}
-        <div className="order-2 lg:order-1">
-          <h2 className="font-roboto text-[20px] md:text-[38px] lg:text-[56px] font-bold mb-2 md:mb-2">Why Join Zinkq</h2>
+        <div className="order-2 lg:order-1 px-4 md:px-0">
+          <h2 className="font-roboto text-[20px] md:text-[38px] lg:text-[56px]  font-bold mb-2 md:mb-2">Why Join Zinkq</h2>
 
           <p className="font-roboto text-[14px] md:text-[16px] lg:text-[20px] text-gray-700">Because no one builds alone.</p>
           <p className=" font-roboto text-[14px] md:text-[16px] lg:text-[20px] text-gray-700 mb-2 md:mb-6">

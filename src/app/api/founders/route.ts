@@ -16,7 +16,7 @@ export async function GET() {
         "image": image.asset->url
       },
       facebook,
-      youtube,
+      instagram,
       linkedin,
       "image": image.asset->url
     }

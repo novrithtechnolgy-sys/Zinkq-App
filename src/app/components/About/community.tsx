@@ -3,7 +3,7 @@ import { FaC, FaCircleCheck } from "react-icons/fa6";
 export default function Community() {
     return (
         <section className="mx-2 md:mx-4 lg:mx-8 rounded-b-3xl py-4 md:py-10">
-            <div className="md:px-10 xl:px-12 2xl:px-20 mx-auto px-4 rounded-xl md:rounded-3xl bg-[#F0F2F4] w-full py-10 md:py-10 ">
+            <div className="md:px-10 xl:px-12 2xl:px-20 mx-auto px-6 rounded-xl md:rounded-3xl bg-[#F0F2F4] w-full py-10 md:py-10 ">
                 <div className="max-w-4xl">
         <h2 className="font-roboto text-[20px] md:text-[38px] lg:text-[56px] font-bold text-[#1A1A1A]">
           Our Community
@@ -30,8 +30,7 @@ export default function Community() {
         </ul>
 
         <p className="mt-4 font-roboto text-[14px] md:text-[16px] lg:text-[20px] text-gray-700 leading-relaxed">
-          Together, we’re redefining Sri Lanka’s startup story —
-          one connection at a time.
+          Together, we’re redefining Sri Lanka’s startup story by creating one connection at a time.
         </p>
       </div>
             </div>

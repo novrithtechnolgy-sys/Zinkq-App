@@ -3,7 +3,7 @@
 import { urlFor } from "@/sanity/lib/image";
 import Image from "next/image";
 import { useState, useEffect } from "react";
-import { FaArrowDown, FaArrowUp, FaCheckCircle, FaFacebook, FaLinkedin, FaSearch, FaYoutube } from "react-icons/fa";
+import { FaArrowDown, FaArrowUp, FaCheckCircle, FaFacebook, FaInstagram, FaLinkedin, FaSearch, FaYoutube } from "react-icons/fa";
 import { FaSquareXTwitter, FaXTwitter } from "react-icons/fa6";
 
 export default function StartupMembers() {
@@ -62,7 +62,7 @@ export default function StartupMembers() {
           Our Members’ <span className="text-blue-500">Startups</span>
         </h2>
 
-        <p className="mt-2 text-center text-gray-600 font-roboto text-[14px] md:text-[16px] lg:text-[20px]">
+        <p className="mt-2 text-center px-4 md:px-0 text-gray-600 font-roboto text-[14px] md:text-[16px] lg:text-[20px]">
           We are a team of entrepreneurs, creators, and innovators who are passionate
         </p>
 
@@ -165,10 +165,9 @@ export default function StartupMembers() {
                     <p className="font-roboto text-[12px] md:text-[14px] text-gray-500 mt-1">{f.expect}</p>
 
                     <div className="flex justify-center gap-4 mt-3 text-gray-700">
-                      <a href={f.facebook}><FaFacebook /></a>
+                      <a href={f.facebook}><FaFacebook /></a>                  
+                      <a href={f.instagram}><FaInstagram /></a>
                       <a href={f.linkedin}><FaLinkedin /></a>
-                      <a href={f.twitter}><FaYoutube /></a>
-                   
                     </div>
                   </div>
 
@@ -247,9 +246,8 @@ export default function StartupMembers() {
 
                 <div className="flex gap-4 pt-2 text-gray-700">
                    <a href={selected.facebook}><FaFacebook /></a>
+                   <a href={selected.instagram}><FaInstagram /></a>
                    <a href={selected.linkedin}><FaLinkedin /></a>
-                   <a href={selected.twitter}><FaYoutube /></a>
-                 
                 </div>
               </div>
             </div>

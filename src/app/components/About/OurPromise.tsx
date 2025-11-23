@@ -10,7 +10,7 @@ export default function OurPromise() {
 
         {/* Subtitle */}
         <p className="font-roboto text-[14px] md:text-[16px] lg:text-[20px] mt-4 text-gray-600 max-w-3xl mx-auto text-lg leading-relaxed">
-          We’ll stay real, collaborative, and transparent — always focused on
+          We’ll stay real, collaborative, and transparent. We’re always focused on
           empowering founders, not exploiting them. Because when one of us wins,
           we all rise.
         </p>

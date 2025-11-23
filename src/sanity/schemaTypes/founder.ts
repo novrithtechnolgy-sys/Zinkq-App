@@ -38,8 +38,8 @@ export default {
       type: "url",
     },
     {
-      name: "youtube",
-      title: "Youtube URL",
+      name: "instagram",
+      title: "Instagram URL",
       type: "url",
     },
     {

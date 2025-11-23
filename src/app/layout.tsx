@@ -35,7 +35,13 @@ export const metadata: Metadata = {
     "entrepreneurs Sri Lanka",
   ],
   icons: {
-    icon: "/favicon.ico",
+    icon: [
+      {url: "/favicon.ico", type: "image/x-icon"},
+      {url: "/favicon-16x16.png", sizes: "16x16", type: "image/png"},
+      {url: "/favicon-48.png", sizes: "48x48", type: "image/png"},
+      {url: "/favicon-192.png", sizes: "192x192", type: "image/png"}
+      {url: "/favicon-512.png", sizes: "512x512", type: "image/png"}
+    ],
     shortcut: "/favicon-16x16.png",
     apple: "/apple-touch-icon.png",
     other: {

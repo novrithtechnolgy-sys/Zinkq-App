@@ -46,7 +46,7 @@ export const metadata: Metadata = {
       "Zinkq is Sri Lanka’s startup community where founders, innovators, and creators connect, collaborate, and grow through real opportunities.",
     images: [
       {
-        url: "https://res.cloudinary.com/dgm9hbcb1/image/upload/v1763115529/nkxhgeiy5ekueji2hjzy.jpg",
+        url: "https://res.cloudinary.com/dgm9hbcb1/image/upload/v1763912136/cnoqzi3l6gxwssnolzsf.png",
         width: 800,
         height: 600,
         alt: "Zinkq",
@@ -63,7 +63,7 @@ export const metadata: Metadata = {
       "Zinkq is Sri Lanka’s startup community where founders, innovators, and creators connect, collaborate, and grow through real opportunities.",
     images: [
       {
-        url: "https://res.cloudinary.com/dgm9hbcb1/image/upload/v1763115529/nkxhgeiy5ekueji2hjzy.jpg",
+        url: "https://res.cloudinary.com/dgm9hbcb1/image/upload/v1763912136/cnoqzi3l6gxwssnolzsf.png",
         width: 800,
         height: 600,
         alt: "Zinkq",
@@ -83,6 +83,24 @@ export default function RootLayout({
   return (
     <html lang="en">
       <head>
+        {/* Organization Schema */}
+        <Script id="schema-org" type="application/ld+json">
+          {JSON.stringify({
+            "@context": "https://schema.org",
+            "@type": "Organization",
+            name: "Zinkq",
+            url: "https://zinkq.com",
+            icon: "https://zinkq.com/favicon.ico",
+            logo: "https://zinkq.com/icon.png",
+            description:
+              "Zinkq is Sri Lanka’s startup network where founders, innovators, and creators connect to collaborate and grow.",
+            sameAs: [
+              "https://www.facebook.com/profile.php?id=61579360235881#",
+              "https://www.instagram.com/networkwith.zinkq",
+              "https://www.linkedin.com/company/zinkq/",
+            ],
+          })}
+        </Script>
         {/* Metricool */}
         <Script id="metricool-script" strategy="afterInteractive">
           {`

@@ -100,8 +100,8 @@ export default function RootLayout({
             "@type": "Organization",
             name: "Zinkq",
             url: "https://zinkq.com",
-            logo: "https://zinkq.com/logo.png",
-            image: "https://zinkq.com/logo.png",
+            logo: "https://zinkq.com/logo-512.png",
+            image: "https://zinkq.com/logo-512.png",
             description:
               "Zinkq is Sri Lanka’s startup network where founders, innovators, and creators connect to collaborate and grow.",
             sameAs: [

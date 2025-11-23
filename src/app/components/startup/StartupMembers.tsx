@@ -240,12 +240,12 @@ export default function StartupMembers() {
                 className="rounded-full h-32 w-32 object-cover"
               />
 
-              <div>
-                <h3 className="font-roboto text-[16px] md:text-[18px] lg:text-[24px] font-bold">{selected.name}</h3>
+              <div className="space-y-1">
+                <h3 className="font-roboto text-[16px] md:text-[18px] lg:text-[24px] font-bold ">{selected.name}</h3>
                 <p className="text-gray-600">{selected.role}</p>
-                <p className="text-gray-500">{selected.expect}</p>
+                <p className="text-gray-500 ">{selected.expect}</p>
 
-                <div className="flex gap-4 mt-3 text-gray-700">
+                <div className="flex gap-4 pt-2 text-gray-700">
                    <a href={selected.facebook}><FaFacebook /></a>
                    <a href={selected.linkedin}><FaLinkedin /></a>
                    <a href={selected.twitter}><FaYoutube /></a>

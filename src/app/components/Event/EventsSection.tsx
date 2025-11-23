@@ -46,7 +46,7 @@ export default function EventsSection() {
 
             <p className="mt-1 md:mt-5 text-white/90 font-roboto text-[14px] md:text-[16px] lg:text-[20px]  max-w-[250px] md:max-w-2xl">
               Our signature in-person event bringing together startup founders,
-              investors, creators, and mentors. It’s not about pitching — it’s
+              investors, creators, and mentors. It’s not about pitching, it’s
               about real conversations, genuine relationships, and building
               collaborations that matter.
             </p>

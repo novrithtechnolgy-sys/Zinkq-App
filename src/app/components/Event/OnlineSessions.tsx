@@ -27,7 +27,7 @@ export default function OnlineSessions() {
 
           <p className="text-[14px] md:text-[16px] lg:text-[20px] font-roboto text-gray-200 mb-2 md:mb-4 leading-relaxed">
             Our online sessions are designed to keep the community learning and
-            sharing — wherever you are.
+            sharing together wherever you are.
           </p>
 
           <h4 className="font-bold font-roboto text-[16px] md:text-[18px] lg:text-[24px] mb-2 md:mb-2">What to Expect:</h4>

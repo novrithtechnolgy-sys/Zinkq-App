@@ -84,8 +84,8 @@ export default function Contactpage() {
 
         {/* LEFT: FORM */}
         <form onSubmit={handleSubmit} className="bg-[#F5F4F7] shadow-md rounded-xl p-8">
-          <h2 className="text-xl font-semibold mb-1">Send us a message</h2>
-          <p className="text-sm text-gray-500 mb-6">
+          <h2 className="font-roboto text-[16px] md:text-[30px] lg:text-[48px] font-semibold mb-1">Send us a message</h2>
+          <p className="font-roboto text-[14px] md:text-[16px] lg:text-[20px] text-gray-500 mb-6">
             Drop a message and you never know where one connection could lead.
           </p>
 
@@ -96,7 +96,7 @@ export default function Contactpage() {
 
             {/* First name */}
             <div>
-              <label className="text-sm">First name</label>
+              <label className="font-roboto text-[14px] md:text-[16px] lg:text-[20px]">First name</label>
               <div className="flex items-center border rounded-md px-3 py-2 mt-1">
                 <FiUser className="text-gray-400 mr-2" />
                 <input
@@ -112,7 +112,7 @@ export default function Contactpage() {
 
             {/* Last name */}
             <div>
-              <label className="text-sm">Last name</label>
+              <label className="font-roboto text-[14px] md:text-[16px] lg:text-[20px]">Last name</label>
               <div className="flex items-center border rounded-md px-3 py-2 mt-1">
                 <FiUser className="text-gray-400 mr-2" />
                 <input
@@ -128,7 +128,7 @@ export default function Contactpage() {
 
             {/* Email */}
             <div className="md:col-span-2">
-              <label className="text-sm">Email Address</label>
+              <label className="font-roboto text-[14px] md:text-[16px] lg:text-[20px]">Email Address</label>
               <div className="flex items-center border rounded-md px-3 py-2 mt-1">
                 <FiMail className="text-gray-400 mr-2" />
                 <input
@@ -144,7 +144,7 @@ export default function Contactpage() {
 
             {/* Phone */}
             <div className="md:col-span-2">
-              <label className="text-sm">Phone number</label>
+              <label className="font-roboto text-[14px] md:text-[16px] lg:text-[20px]">Phone number</label>
               <div className="flex items-center border rounded-md px-3 py-2 mt-1">
                 <FiPhone className="text-gray-400 mr-2" />
                 <input
@@ -160,7 +160,7 @@ export default function Contactpage() {
 
             {/* Message */}
             <div className="md:col-span-2">
-              <label className="text-sm">Message</label>
+              <label className="font-roboto text-[14px] md:text-[16px] lg:text-[20px]">Message</label>
               <div className="flex items-start border rounded-md px-3 py-2 mt-1">
                 <FiMessageCircle className="text-gray-400 mr-2 mt-1" />
                 <textarea
@@ -203,22 +203,22 @@ export default function Contactpage() {
           {/* Contact Info */}
           <div className="absolute bottom-6 left-6 text-white">
             <div className="mb-6">
-              <h3 className="text-lg font-semibold">Address</h3>
-              <p className="text-sm text-gray-200">22 Marikkar St, <br/>
+              <h3 className="font-roboto text-[14px] md:text-[16px] lg:text-[20px] font-semibold">Address</h3>
+              <p className="font-roboto text-[14px] md:text-[16px] lg:text-[20px] text-gray-200">22 Marikkar St, <br/>
                 Dharga Town,<br/> Aluthgama, Sri Lanka</p>
             </div>
 
             <div className="mb-6">
-              <h3 className="text-lg font-semibold">Contact</h3>
-              <p className="text-sm text-gray-200">077 157 9668</p>
+              <h3 className="font-roboto text-[14px] md:text-[16px] lg:text-[20px] font-semibold">Contact</h3>
+              <p className="font-roboto text-[14px] md:text-[16px] lg:text-[20px] text-gray-200">077 157 9668</p>
             </div>
 
             <div className="mb-6">
-              <h3 className="text-lg font-semibold">Email</h3>
-              <p className="text-sm text-gray-200">inqary.digitalescaps@gmail.com</p>
+              <h3 className="font-roboto text-[14px] md:text-[16px] lg:text-[20px] font-semibold">Email</h3>
+              <p className="font-roboto text-[14px] md:text-[16px] lg:text-[20px] text-gray-200">contact.zinkq@gmail.com</p>
             </div>
 
-            <div className="flex space-x-4 text-white text-xl">
+            <div className="flex space-x-4 text-white text-[20px]">
               <a href="https://www.facebook.com/profile.php?id=61579360235881#"><FiFacebook /></a>
               <a href="https://www.instagram.com/networkwith.zinkq"><FiInstagram /></a>
               <a href="https://www.linkedin.com/company/zinkq/"><FiLinkedin /></a> 

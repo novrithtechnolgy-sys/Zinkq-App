@@ -13,7 +13,7 @@ module.exports = {
       },
       {
         userAgent: "*",
-        disallow: ["/api/*", "/admin/*,/subcribe","/thank-you"],
+        disallow: ["/api/*", "/admin/*","/subcribe","/thank-you"],
       },
     ],
     additionalSitemaps: ["https://zinkq.com/sitemap.xml"],

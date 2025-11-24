@@ -63,7 +63,7 @@ export default function Footer() {
            className="hover:text-black">Cookie settings</a>
         </div>
 
-        <p>Created by <a href="https://www.novrithtechnology.com" className="text-black hover:underline">Novrith Technology</a></p>
+        <p className="mt-4 md:mt-0">Created by <a href="https://www.novrithtechnology.com" className="text-black hover:underline">Novrith Technology</a></p>
 
       </div>
     </footer>

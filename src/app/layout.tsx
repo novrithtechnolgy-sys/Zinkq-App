@@ -57,8 +57,8 @@ export const metadata: Metadata = {
     images: [
       {
         url: "https://res.cloudinary.com/dgm9hbcb1/image/upload/v1763912136/cnoqzi3l6gxwssnolzsf.png",
-        width: 800,
-        height: 600,
+        width: 1200,
+        height: 630,
         alt: "Zinkq",
       },
     ],
@@ -74,8 +74,8 @@ export const metadata: Metadata = {
     images: [
       {
         url: "https://res.cloudinary.com/dgm9hbcb1/image/upload/v1763912136/cnoqzi3l6gxwssnolzsf.png",
-        width: 800,
-        height: 600,
+        width: 1200,
+        height: 630,
         alt: "Zinkq",
       },
     ],

@@ -6,7 +6,7 @@ import WhyJoinZinkq from "./components/Home/WhyJoinZinkq";
 import Navbar from "./components/Navbar";
 
 export const metadata = {
-  title: "Zinkq | Home",
+  title: "Zinkq|Sri Lanka’s number 1 Startup Community",
   description: "Zinkq is Sri Lanka’s startup community where founders, innovators, and creators connect, collaborate, and grow through real opportunities.",
 }
 

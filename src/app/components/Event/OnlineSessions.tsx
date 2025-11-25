@@ -9,11 +9,11 @@ export default function OnlineSessions() {
     <section className="mx-2 md:mx-4 lg:mx-8 py-4 md:py-10 mt-10">
         <div className="md:px-10 xl:px-12 2xl:px-20 mx-auto px-2 rounded-xl md:rounded-3xl bg-[#F0F2F4] py-4 md:py-10">
       {/* Title */}
-      <h2 className="font-roboto text-[20px] md:text-[38px] lg:text-[56px] font-bold text-[#1A1A1A] px-5 md:px-0">
+      <h2 className="font-roboto text-[20px] md:text-[38px] lg:text-[56px] font-bold text-[#1A1A1A] px-4 md:px-0">
         Zinkq Online Sessions
       </h2>
 
-    <div className="w-full px-5 md:px-0" >
+    <div className="w-full px-4 md:px-0" >
       <div className="w-full h-[2px] bg-gray-400 mb-10  " />
     </div>
 

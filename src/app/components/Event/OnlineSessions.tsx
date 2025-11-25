@@ -9,11 +9,13 @@ export default function OnlineSessions() {
     <section className="mx-2 md:mx-4 lg:mx-8 py-4 md:py-10 mt-10">
         <div className="md:px-10 xl:px-12 2xl:px-20 mx-auto px-2 rounded-xl md:rounded-3xl bg-[#F0F2F4] py-4 md:py-10">
       {/* Title */}
-      <h2 className="font-roboto text-[20px] md:text-[38px] lg:text-[56px] font-bold text-[#1A1A1A]">
+      <h2 className="font-roboto text-[20px] md:text-[38px] lg:text-[56px] font-bold text-[#1A1A1A] px-5 md:px-0">
         Zinkq Online Sessions
       </h2>
 
-      <div className="w-full h-[2px] bg-gray-400 mb-10" />
+    <div className="w-full px-5 md:px-0" >
+      <div className="w-full h-[2px] bg-gray-400 mb-10  " />
+    </div>
 
       {/* Main Card */}
       <div className="bg-white rounded-3xl overflow-hidden shadow-sm flex flex-col md:flex-row">
@@ -21,7 +23,7 @@ export default function OnlineSessions() {
         {/* LEFT SIDE */}
         <div className="flex-1 p-8 md:p-14 bg-gradient-to-r from-[#6F00FF] via-[#5022F8] to-[#007BFF] text-white flex flex-col justify-center">
           
-          <h3 className="font-roboto text-[16px] md:text-[18px] lg:text-[24px] font-bold mb-2">
+          <h3 className="font-roboto text-[16px] md:text-[18px] lg:text-[24px] font-bold mb-2 ">
             Can’t join in person? No problem.
           </h3>
 

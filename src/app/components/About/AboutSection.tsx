@@ -42,9 +42,8 @@ export default function AboutSection() {
             Our <span className="text-blue-600">Mission</span>
           </h2>
           <p className="mt-3 text-gray-600 font-roboto text-[14px] md:text-[16px] lg:text-[20px]">
-            To shape Sri Lanka's most dynamic startup ecosystem — where every
-            entrepreneur has access to the people, tools, and opportunities they
-            need to succeed.
+            To empower startups through connection, collaboration, and visibility, helping founders 
+            grow from local to global impact. 
           </p>
         </div>
       </div>

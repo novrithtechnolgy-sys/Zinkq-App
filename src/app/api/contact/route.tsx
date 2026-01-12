@@ -11,7 +11,7 @@ export async function POST(req: Request) {
       service: "gmail",
       auth: {
         user: process.env.EMAIL_USER || "sumalnadira123@gmail.com",
-        pass: process.env.EMAIL_PASS || "pjfh tirp fxjr yqav",
+        pass: process.env.EMAIL_PASS || "vwud gbqe wvxq pjbk",
       },
     });
 

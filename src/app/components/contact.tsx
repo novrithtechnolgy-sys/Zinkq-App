@@ -205,7 +205,7 @@ export default function Contactpage() {
             <div className="mb-6">
               <h3 className="font-roboto text-[14px] md:text-[16px] lg:text-[20px] font-semibold">Address</h3>
               <p className="font-roboto text-[14px] md:text-[16px] lg:text-[20px] text-gray-200">22 Marikkar St, <br/>
-                Dharga Town,<br/> Aluthgama, Sri Lanka</p>
+                Dharga Town 12090,<br/> Sri Lanka</p>
             </div>
 
             <div className="mb-6">
@@ -215,7 +215,7 @@ export default function Contactpage() {
 
             <div className="mb-6">
               <h3 className="font-roboto text-[14px] md:text-[16px] lg:text-[20px] font-semibold">Email</h3>
-              <p className="font-roboto text-[14px] md:text-[16px] lg:text-[20px] text-gray-200">contact.zinkq@gmail.com</p>
+              <p className="font-roboto text-[14px] md:text-[16px] lg:text-[20px] text-gray-200">hello@zinkq.com</p>
             </div>
 
             <div className="flex space-x-4 text-white text-[20px]">

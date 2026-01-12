@@ -53,7 +53,7 @@ export async function POST(req: Request) {
               </tr>
               <tr>
                 <td style="font-weight: bold;">Subject:</td>
-                <td>${subject || "Not provided"}</td>
+                <td>${subject || "Contact Form Submission Zinkq"}</td>
               </tr>
             </table>
   

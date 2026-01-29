@@ -205,8 +205,8 @@ export default function StartupMembers() {
                   <Image
                     src={b.image}
                     alt={b.title}
-                    width={100}
-                    height={100}
+                    width={400}
+                    height={400}
                     className="rounded-lg object-cover"
                   />
                   <div className="p-4">
@@ -234,8 +234,8 @@ export default function StartupMembers() {
               <Image
                 src={selected.image}
                 alt={selected.name}
-                width={120}
-                height={120}
+                width={400}
+                height={400}
                 className="rounded-full h-32 w-32 object-cover"
               />
 

@@ -5,7 +5,7 @@ import StartupMembers from "../components/startup/StartupMembers";
 
 export const metadata = {
     title: "Zinkq | Startups",
-    description: "Zinkq is Sri Lanka’s startup community where founders, innovators, and creators connect, collaborate, and grow through real opportunities.",
+    description: "Explore innovative startups from Sri Lanka’s startup ecosystem. Discover founders, products, and emerging companies supported by Zinkq.",
 }
 
 export default function Startup() {

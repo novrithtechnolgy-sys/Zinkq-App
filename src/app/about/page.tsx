@@ -8,7 +8,7 @@ import Navbar from "../components/Navbar";
 
 export const metadata = {
   title: "Zinkq | About",
-  description: "Zinkq is Sri Lanka’s startup community where founders, innovators, and creators connect, collaborate, and grow through real opportunities.",
+  description: "Learn about Zinkq, Sri Lanka’s startup community connecting founders, investors, and innovators.",
 }
 
 export default function About() {

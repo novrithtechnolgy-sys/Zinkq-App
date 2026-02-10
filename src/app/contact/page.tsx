@@ -4,7 +4,7 @@ import Contactpage from "../components/contact";
 
 export const metadata = {
   title: "Zinkq | Contact",
-  description: "Zinkq is Sri Lanka’s startup community where founders, innovators, and creators connect, collaborate, and grow through real opportunities.",
+  description: "Get in touch with Zinkq. Reach our team for partnerships, events, and startup support in Sri Lanka.",
 }
 
 export default function ContactPage() {

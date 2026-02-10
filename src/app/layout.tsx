@@ -25,7 +25,7 @@ export const metadata: Metadata = {
     default: "Zinkq",
     template: "%s",
   },
-  description: "Zinkq is Sri Lanka’s startup community where founders, innovators, and creators connect, collaborate, and grow through real opportunities.",
+  // description: "Zinkq is Sri Lanka’s startup community where founders, innovators, and creators connect, collaborate, and grow through real opportunities.",
   keywords: [
     "Sri Lanka startup network",
     "startup community",

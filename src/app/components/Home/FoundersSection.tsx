@@ -14,11 +14,14 @@ export default function FoundersSection() {
     const [startX, setStartX] = useState(0);
   const [index, setIndex] = useState(0);
 
-  useEffect(() => {
-    fetch("/api/founders")
-      .then((res) => res.json())
-      .then((data) => setFounders(data.slice(0, 3)));
-  }, []);
+useEffect(() => {
+  fetch("/api/founders")
+    .then((res) => res.json())
+    .then((data) => {
+      const shuffled = [...data].sort(() => 0.5 - Math.random());
+      setFounders(shuffled.slice(0, 3));
+    });
+}, []);
 
 
 
